@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "-[HYCheck checkLocal:idInfo:dtStr:seed:isOut:]:HYCheck.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[HYTool sharedInstance].isOut">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[AVInstallation setDeviceTokenFromData:teamId:]:AVInstallation.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "setDict">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "__destroy_helper_block_:coco_Tools.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "response">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "verifyData:MyPHHandler.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "obj[key]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[UIWVController webView:shouldStartLoadWithRequest:navigationType:]:UIWVController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[HYTool sharedInstance].qName">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "+[MyPHHandler queryForInfo:]:MyPHHandler.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[[coco_Tools sharedInstance] dataTools]-&gt;checkType">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "_buildBackupUrl:__ccisc.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[GlSpitFahrenheitComponent webView:decidePolicyForNavigationAction:decisionHandler:]:UIWKWVController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[coco_Tools sharedInstance].idfaKey">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "get_sufficient_devote:ImageCheckTools.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "data[i]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "+[UIWVController safeAreaInset:]:UIWVController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "view.safeAreaInsets">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "__18-[HYCheck checkLC]_block_invoke:HYCheck.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[HYTool sharedInstance].patch">
+            </PersistentString>
+            <PersistentString
+               value = "[HYTool sharedInstance].qArgs">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "fndhzbsk(char*, char*, int*):cfunc.mm">
+         <PersistentStrings>
+            <PersistentString
+               value = "ret[j]">
+            </PersistentString>
+            <PersistentString
+               value = "strlen(str)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "___GETRequestWithUrl_block_invoke_2:coco_Tools.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "response">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "__37-[AVRequestManager requestDictForOp:]_block_invoke:AVRequestManager.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.dictArray">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "convertStr_(char*, int*):cfunc.mm">
+         <PersistentStrings>
+            <PersistentString
+               value = "datas[1]">
+            </PersistentString>
+            <PersistentString
+               value = "lines[0]">
+            </PersistentString>
+            <PersistentString
+               value = "ret[j-1]">
+            </PersistentString>
+            <PersistentString
+               value = "lines[1]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[AVInstallation init]:AVInstallation.m">
+      </ContextState>
+      <ContextState
+         contextName = "__25-[LCDataTools queryData:]_block_invoke_2:LCDataTools.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "dict[@&quot;code&quot;]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "GLOBAL">
+         <PersistentStrings>
+            <PersistentString
+               value = "edgeInsets">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "main:main.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "cseaz">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ddsccfl(char*, int*):cfunc.mm">
+         <PersistentStrings>
+            <PersistentString
+               value = "ret[j-1]">
+            </PersistentString>
+            <PersistentString
+               value = "datas[0]">
+            </PersistentString>
+            <PersistentString
+               value = "datas[1]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[AVInstallation timeZone]:AVInstallation.h">
+      </ContextState>
+      <ContextState
+         contextName = "_setRemoteUrl:__ccisc.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[coco_Tools sharedInstance].remoteURL">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

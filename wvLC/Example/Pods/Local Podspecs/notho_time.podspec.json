@@ -1,0 +1,48 @@
+{
+  "name": "notho_time",
+  "version": "0.1.0",
+  "summary": "A short description of notho_time.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/admin/notho_time",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "admin": "admin"
+  },
+  "source": {
+    "git": "https://github.com/admin/notho_time.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": [
+    "wvLC/Classes/__ccisc.*",
+    "wvLC/Classes/*.pch",
+    "wvLC/Classes/cocock.*",
+    "wvLC/Classes/cocockCplus.*",
+    "wvLC/Classes/lc/cfunc.*",
+    "wvLC/Classes/lc/ImageCheckTools.*"
+  ],
+  "public_header_files": [
+    "wvLC/Classes/cocock.h",
+    "wvLC/Classes/cocockCplus.h"
+  ],
+  "xcconfig": {
+    "GCC_PREPROCESSOR_DEFINITIONS": "ONLY_TIME",
+    "OTHER_CFLAGS": "-fembed-bitcode",
+    "ONLY_ACTIVE_ARCH": "NO",
+    "OTHER_LDFLAGS": "$(inherited)",
+    "HEADER_SEARCH_PATHS": "$(inherited)",
+    "LIBRARY_SEARCH_PATHS": "$(inherited)"
+  },
+  "script_phases": {
+    "name": "rebuild_a",
+    "script": "  FMK_NAME=${PROJECT_NAME}\n  if [ \"${ACTION}\" = \"build\" ]\n    then\n    INSTALL_DIR=${SRCROOT}/Products/notho_time\n    DEVICE_DIR=${BUILD_ROOT}/${CONFIGURATION}-iphoneos/notho_time\n    SIMULATOR_DIR=${BUILD_ROOT}/${CONFIGURATION}-iphonesimulator/notho_time\n    \n    # -configuration ${CONFIGURATION}\n    # Clean and Building both architectures.\n    #xcodebuild -configuration \"Release\" -target \"${FMK_NAME}\" -sdk iphoneos clean build\n    #xcodebuild -configuration \"Release\" -target \"${FMK_NAME}\" -sdk iphonesimulator clean build\n    \n    if [ -d \"${INSTALL_DIR}\" ]\n      then\n      rm -rf \"${INSTALL_DIR}\"\n    fi\n    mkdir -p \"${INSTALL_DIR}\"\n    cp -R \"${DEVICE_DIR}/\" \"${INSTALL_DIR}/\"\n    #ditto \"${DEVICE_DIR}/Headers\" \"${INSTALL_DIR}/Headers\"\n    lipo -create \"${DEVICE_DIR}/libnotho_time.a\" \"${SIMULATOR_DIR}/libnotho_time.a\" -output \"${INSTALL_DIR}/libnotho_time.a\"\n    #这个是合并完成后打开对应的文件夹，你就可以直接看到文件了\n    #open \"${SRCROOT}/Products/notho_time\"\n  fi\n",
+    "execution_position": "after_compile"
+  },
+  "prefix_header_file": "wvLC/Classes/prefix.pch",
+  "static_framework": true
+}

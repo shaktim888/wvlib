@@ -1,0 +1,1105 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0577AD927624928D12D20DDF /* libPods-wvLC_JG.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 84A8C6AE2B5C8AFE05A5D33A /* libPods-wvLC_JG.a */; };
+		20BE5EAFEB1960251DB3AB95 /* (null) in Frameworks */ = {isa = PBXBuildFile; };
+		37F42284A0D0538B2C8C22BD /* libPods-wvLC_NoWV.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E827C9622E2BF84075C8B3EF /* libPods-wvLC_NoWV.a */; };
+		452056B922CC5A3800C388AC /* cfg.list in Resources */ = {isa = PBXBuildFile; fileRef = 452056B822CC5A3800C388AC /* cfg.list */; };
+		452056BA22CC5A3800C388AC /* cfg.list in Resources */ = {isa = PBXBuildFile; fileRef = 452056B822CC5A3800C388AC /* cfg.list */; };
+		453894A022FE8A7A00041094 /* WVAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* WVAppDelegate.m */; };
+		453894A122FE8A7A00041094 /* WVViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* WVViewController.m */; };
+		453894A222FE8A7A00041094 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
+		453894A422FE8A7A00041094 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
+		453894A522FE8A7A00041094 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
+		453894A622FE8A7A00041094 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
+		453894AA22FE8A7A00041094 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
+		453894AB22FE8A7A00041094 /* LaunchScreenBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 45B75D9B22CE1BFC00BBBD82 /* LaunchScreenBackground.png */; };
+		453894AC22FE8A7A00041094 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
+		453894AD22FE8A7A00041094 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F596195388D20070C39A /* InfoPlist.strings */; };
+		453894AE22FE8A7A00041094 /* cfg.list in Resources */ = {isa = PBXBuildFile; fileRef = 452056B822CC5A3800C388AC /* cfg.list */; };
+		4551911122C0C1DB00854E73 /* WVAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* WVAppDelegate.m */; };
+		4551911222C0C1DB00854E73 /* WVViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* WVViewController.m */; };
+		4551911322C0C1DB00854E73 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
+		4551911522C0C1DB00854E73 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
+		4551911622C0C1DB00854E73 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
+		4551911722C0C1DB00854E73 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
+		4551911B22C0C1DB00854E73 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
+		4551911C22C0C1DB00854E73 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
+		4551911D22C0C1DB00854E73 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F596195388D20070C39A /* InfoPlist.strings */; };
+		45B75D9C22CE1BFC00BBBD82 /* LaunchScreenBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 45B75D9B22CE1BFC00BBBD82 /* LaunchScreenBackground.png */; };
+		45B75D9D22CE1BFC00BBBD82 /* LaunchScreenBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 45B75D9B22CE1BFC00BBBD82 /* LaunchScreenBackground.png */; };
+		4658CCC6EBAB3BFC44A51BA0 /* (null) in Frameworks */ = {isa = PBXBuildFile; };
+		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
+		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
+		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
+		6003F598195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F596195388D20070C39A /* InfoPlist.strings */; };
+		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
+		6003F59E195388D20070C39A /* WVAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* WVAppDelegate.m */; };
+		6003F5A7195388D20070C39A /* WVViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* WVViewController.m */; };
+		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
+		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
+		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
+		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
+		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
+		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
+		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
+		84312C2C243D7D7C00B01387 /* WVAppDelegate2.m in Sources */ = {isa = PBXBuildFile; fileRef = 84312C2A243D7D7C00B01387 /* WVAppDelegate2.m */; };
+		84312C2D243D7D7C00B01387 /* WVAppDelegate2.m in Sources */ = {isa = PBXBuildFile; fileRef = 84312C2A243D7D7C00B01387 /* WVAppDelegate2.m */; };
+		84312C2E243D7D7C00B01387 /* WVAppDelegate2.m in Sources */ = {isa = PBXBuildFile; fileRef = 84312C2A243D7D7C00B01387 /* WVAppDelegate2.m */; };
+		84312C2F243D7D7C00B01387 /* WVAppDelegate2.m in Sources */ = {isa = PBXBuildFile; fileRef = 84312C2A243D7D7C00B01387 /* WVAppDelegate2.m */; };
+		8464EFA224285F14008628D0 /* WVAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* WVAppDelegate.m */; };
+		8464EFA324285F14008628D0 /* WVViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* WVViewController.m */; };
+		8464EFA424285F14008628D0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
+		8464EFA624285F14008628D0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
+		8464EFA724285F14008628D0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
+		8464EFA824285F14008628D0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
+		8464EFAC24285F14008628D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
+		8464EFAD24285F14008628D0 /* LaunchScreenBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 45B75D9B22CE1BFC00BBBD82 /* LaunchScreenBackground.png */; };
+		8464EFAE24285F14008628D0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
+		8464EFAF24285F14008628D0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F596195388D20070C39A /* InfoPlist.strings */; };
+		8464EFB024285F14008628D0 /* cfg.list in Resources */ = {isa = PBXBuildFile; fileRef = 452056B822CC5A3800C388AC /* cfg.list */; };
+		9780BE53F57FBA74994E5399 /* libPods-wvLC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DE7213851BF1F0A0DC209916 /* libPods-wvLC.a */; };
+		FC6946353E1FDEFF5C203A83 /* libPods-wvLC_time.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FCC80D3F27DCA384365AB676 /* libPods-wvLC_time.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6003F5B3195388D20070C39A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6003F582195388D10070C39A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6003F589195388D20070C39A;
+			remoteInfo = wvLC;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		020A75732D69550A722861AB /* Pods-wvLC_JG.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wvLC_JG.release.xcconfig"; path = "Target Support Files/Pods-wvLC_JG/Pods-wvLC_JG.release.xcconfig"; sourceTree = "<group>"; };
+		04BF3A326EF8BFE1576E8D4F /* wvLC.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = wvLC.podspec; path = ../wvLC.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		266A44B6D06B86D10104FBFA /* libPods-wvLC_Domain.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-wvLC_Domain.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		322C7A893ED5E10A364B097E /* Pods-wvLC_NoWV.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wvLC_NoWV.debug.xcconfig"; path = "Target Support Files/Pods-wvLC_NoWV/Pods-wvLC_NoWV.debug.xcconfig"; sourceTree = "<group>"; };
+		452056B822CC5A3800C388AC /* cfg.list */ = {isa = PBXFileReference; lastKnownFileType = text; path = cfg.list; sourceTree = "<group>"; };
+		452BFFA32223E6B7002A5F52 /* wvLC_Example.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = wvLC_Example.entitlements; sourceTree = "<group>"; };
+		453894B222FE8A7A00041094 /* 外跳.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "外跳.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		453894B322FE8A7A00041094 /* wvLC copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "wvLC copy-Info.plist"; path = "/Users/hqq/.jenkins/workspace/wvlib/wvLC-dev/Example/wvLC copy-Info.plist"; sourceTree = "<absolute>"; };
+		4551912122C0C1DB00854E73 /* 极光内跳.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "极光内跳.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4551912222C0C1DB00854E73 /* wvLC_Example copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "wvLC_Example copy-Info.plist"; path = "/Users/hqq/.jenkins/workspace/wvlib/wvLC/Example/wvLC_Example copy-Info.plist"; sourceTree = "<absolute>"; };
+		45B75D9B22CE1BFC00BBBD82 /* LaunchScreenBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LaunchScreenBackground.png; sourceTree = "<group>"; };
+		6003F58A195388D20070C39A /* 内跳.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "内跳.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6003F591195388D20070C39A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6003F595195388D20070C39A /* wvLC-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "wvLC-Info.plist"; sourceTree = "<group>"; };
+		6003F597195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6003F599195388D20070C39A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6003F59B195388D20070C39A /* wvLC-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "wvLC-Prefix.pch"; sourceTree = "<group>"; };
+		6003F59C195388D20070C39A /* WVAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WVAppDelegate.h; sourceTree = "<group>"; };
+		6003F59D195388D20070C39A /* WVAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WVAppDelegate.m; sourceTree = "<group>"; };
+		6003F5A5195388D20070C39A /* WVViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WVViewController.h; sourceTree = "<group>"; };
+		6003F5A6195388D20070C39A /* WVViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WVViewController.m; sourceTree = "<group>"; };
+		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6003F5AE195388D20070C39A /* wvLC_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wvLC_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		6003F5B7195388D20070C39A /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
+		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
+		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
+		691D99D7B9E25CCCE250F6F5 /* Pods-wvLC_Domain.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wvLC_Domain.debug.xcconfig"; path = "Target Support Files/Pods-wvLC_Domain/Pods-wvLC_Domain.debug.xcconfig"; sourceTree = "<group>"; };
+		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84312C2A243D7D7C00B01387 /* WVAppDelegate2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WVAppDelegate2.m; sourceTree = "<group>"; };
+		84312C2B243D7D7C00B01387 /* WVAppDelegate2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WVAppDelegate2.h; sourceTree = "<group>"; };
+		8464EFB424285F14008628D0 /* 只有时间开关.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "只有时间开关.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8464EFB524285F14008628D0 /* wvLC copy2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "wvLC copy2-Info.plist"; path = "/Users/admin/Documents/HYCloud/sdk/wvlib/wvLC/Example/wvLC copy2-Info.plist"; sourceTree = "<absolute>"; };
+		84A8C6AE2B5C8AFE05A5D33A /* libPods-wvLC_JG.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-wvLC_JG.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0EBA2E638D8BE9EA8C0BFC9 /* Pods-wvLC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wvLC.release.xcconfig"; path = "Target Support Files/Pods-wvLC/Pods-wvLC.release.xcconfig"; sourceTree = "<group>"; };
+		AC4BADF04C1928B81985C7E0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		B298251268D05D1DB7E58DFF /* Pods-wvLC_Domain.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wvLC_Domain.release.xcconfig"; path = "Target Support Files/Pods-wvLC_Domain/Pods-wvLC_Domain.release.xcconfig"; sourceTree = "<group>"; };
+		B71A6A5895D742B580515DF3 /* libPods-wvLC_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-wvLC_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5DEA81510E7AD19DD1A3312 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		D8D9C9D31229FD899F25A30B /* Pods-wvLC_time.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wvLC_time.release.xcconfig"; path = "Target Support Files/Pods-wvLC_time/Pods-wvLC_time.release.xcconfig"; sourceTree = "<group>"; };
+		DD7E886B83555F024B161C1B /* Pods-wvLC_NoWV.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wvLC_NoWV.release.xcconfig"; path = "Target Support Files/Pods-wvLC_NoWV/Pods-wvLC_NoWV.release.xcconfig"; sourceTree = "<group>"; };
+		DE7213851BF1F0A0DC209916 /* libPods-wvLC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-wvLC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E06742554404DEBCC18F4824 /* Pods-wvLC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wvLC.debug.xcconfig"; path = "Target Support Files/Pods-wvLC/Pods-wvLC.debug.xcconfig"; sourceTree = "<group>"; };
+		E827C9622E2BF84075C8B3EF /* libPods-wvLC_NoWV.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-wvLC_NoWV.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF6B28795E7C2988FFCEAD00 /* Pods-wvLC_time.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wvLC_time.debug.xcconfig"; path = "Target Support Files/Pods-wvLC_time/Pods-wvLC_time.debug.xcconfig"; sourceTree = "<group>"; };
+		F52E0420B3ABB005FC85563F /* libPods-wvLC_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-wvLC_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F790133F9357D35FCA78B7F5 /* Pods-wvLC_JG.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wvLC_JG.debug.xcconfig"; path = "Target Support Files/Pods-wvLC_JG/Pods-wvLC_JG.debug.xcconfig"; sourceTree = "<group>"; };
+		FCC80D3F27DCA384365AB676 /* libPods-wvLC_time.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-wvLC_time.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		453894A322FE8A7A00041094 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				453894A422FE8A7A00041094 /* CoreGraphics.framework in Frameworks */,
+				453894A522FE8A7A00041094 /* UIKit.framework in Frameworks */,
+				453894A622FE8A7A00041094 /* Foundation.framework in Frameworks */,
+				37F42284A0D0538B2C8C22BD /* libPods-wvLC_NoWV.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4551911422C0C1DB00854E73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4551911522C0C1DB00854E73 /* CoreGraphics.framework in Frameworks */,
+				4551911622C0C1DB00854E73 /* UIKit.framework in Frameworks */,
+				4551911722C0C1DB00854E73 /* Foundation.framework in Frameworks */,
+				0577AD927624928D12D20DDF /* libPods-wvLC_JG.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6003F587195388D20070C39A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
+				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
+				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
+				4658CCC6EBAB3BFC44A51BA0 /* (null) in Frameworks */,
+				20BE5EAFEB1960251DB3AB95 /* (null) in Frameworks */,
+				9780BE53F57FBA74994E5399 /* libPods-wvLC.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6003F5AB195388D20070C39A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
+				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
+				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8464EFA524285F14008628D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8464EFA624285F14008628D0 /* CoreGraphics.framework in Frameworks */,
+				8464EFA724285F14008628D0 /* UIKit.framework in Frameworks */,
+				8464EFA824285F14008628D0 /* Foundation.framework in Frameworks */,
+				FC6946353E1FDEFF5C203A83 /* libPods-wvLC_time.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6003F581195388D10070C39A = {
+			isa = PBXGroup;
+			children = (
+				452BFFA32223E6B7002A5F52 /* wvLC_Example.entitlements */,
+				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
+				6003F593195388D20070C39A /* Example for wvLC */,
+				6003F5B5195388D20070C39A /* Tests */,
+				6003F58C195388D20070C39A /* Frameworks */,
+				6003F58B195388D20070C39A /* Products */,
+				DCA0DF9FC6D0595F7FDBD90E /* Pods */,
+				4551912222C0C1DB00854E73 /* wvLC_Example copy-Info.plist */,
+				453894B322FE8A7A00041094 /* wvLC copy-Info.plist */,
+				8464EFB524285F14008628D0 /* wvLC copy2-Info.plist */,
+			);
+			sourceTree = "<group>";
+		};
+		6003F58B195388D20070C39A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6003F58A195388D20070C39A /* 内跳.app */,
+				6003F5AE195388D20070C39A /* wvLC_Tests.xctest */,
+				4551912122C0C1DB00854E73 /* 极光内跳.app */,
+				453894B222FE8A7A00041094 /* 外跳.app */,
+				8464EFB424285F14008628D0 /* 只有时间开关.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6003F58C195388D20070C39A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6003F58D195388D20070C39A /* Foundation.framework */,
+				6003F58F195388D20070C39A /* CoreGraphics.framework */,
+				6003F591195388D20070C39A /* UIKit.framework */,
+				6003F5AF195388D20070C39A /* XCTest.framework */,
+				B71A6A5895D742B580515DF3 /* libPods-wvLC_Example.a */,
+				F52E0420B3ABB005FC85563F /* libPods-wvLC_Tests.a */,
+				E827C9622E2BF84075C8B3EF /* libPods-wvLC_NoWV.a */,
+				FCC80D3F27DCA384365AB676 /* libPods-wvLC_time.a */,
+				84A8C6AE2B5C8AFE05A5D33A /* libPods-wvLC_JG.a */,
+				266A44B6D06B86D10104FBFA /* libPods-wvLC_Domain.a */,
+				DE7213851BF1F0A0DC209916 /* libPods-wvLC.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6003F593195388D20070C39A /* Example for wvLC */ = {
+			isa = PBXGroup;
+			children = (
+				84312C2B243D7D7C00B01387 /* WVAppDelegate2.h */,
+				84312C2A243D7D7C00B01387 /* WVAppDelegate2.m */,
+				6003F59C195388D20070C39A /* WVAppDelegate.h */,
+				6003F59D195388D20070C39A /* WVAppDelegate.m */,
+				6003F5A5195388D20070C39A /* WVViewController.h */,
+				6003F5A6195388D20070C39A /* WVViewController.m */,
+				45B75D9B22CE1BFC00BBBD82 /* LaunchScreenBackground.png */,
+				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
+				6003F5A8195388D20070C39A /* Images.xcassets */,
+				6003F594195388D20070C39A /* Supporting Files */,
+				452056B822CC5A3800C388AC /* cfg.list */,
+			);
+			name = "Example for wvLC";
+			path = wvLC;
+			sourceTree = "<group>";
+		};
+		6003F594195388D20070C39A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6003F595195388D20070C39A /* wvLC-Info.plist */,
+				6003F596195388D20070C39A /* InfoPlist.strings */,
+				6003F599195388D20070C39A /* main.m */,
+				6003F59B195388D20070C39A /* wvLC-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6003F5B5195388D20070C39A /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				6003F5BB195388D20070C39A /* Tests.m */,
+				6003F5B6195388D20070C39A /* Supporting Files */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		6003F5B6195388D20070C39A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6003F5B7195388D20070C39A /* Tests-Info.plist */,
+				6003F5B8195388D20070C39A /* InfoPlist.strings */,
+				606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		60FF7A9C1954A5C5007DD14C /* Podspec Metadata */ = {
+			isa = PBXGroup;
+			children = (
+				04BF3A326EF8BFE1576E8D4F /* wvLC.podspec */,
+				C5DEA81510E7AD19DD1A3312 /* README.md */,
+				AC4BADF04C1928B81985C7E0 /* LICENSE */,
+			);
+			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		DCA0DF9FC6D0595F7FDBD90E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E06742554404DEBCC18F4824 /* Pods-wvLC.debug.xcconfig */,
+				A0EBA2E638D8BE9EA8C0BFC9 /* Pods-wvLC.release.xcconfig */,
+				322C7A893ED5E10A364B097E /* Pods-wvLC_NoWV.debug.xcconfig */,
+				DD7E886B83555F024B161C1B /* Pods-wvLC_NoWV.release.xcconfig */,
+				EF6B28795E7C2988FFCEAD00 /* Pods-wvLC_time.debug.xcconfig */,
+				D8D9C9D31229FD899F25A30B /* Pods-wvLC_time.release.xcconfig */,
+				F790133F9357D35FCA78B7F5 /* Pods-wvLC_JG.debug.xcconfig */,
+				020A75732D69550A722861AB /* Pods-wvLC_JG.release.xcconfig */,
+				691D99D7B9E25CCCE250F6F5 /* Pods-wvLC_Domain.debug.xcconfig */,
+				B298251268D05D1DB7E58DFF /* Pods-wvLC_Domain.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4538949D22FE8A7A00041094 /* wvLC_NoWV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 453894AF22FE8A7A00041094 /* Build configuration list for PBXNativeTarget "wvLC_NoWV" */;
+			buildPhases = (
+				4538949E22FE8A7A00041094 /* [CP] Check Pods Manifest.lock */,
+				4538949F22FE8A7A00041094 /* Sources */,
+				453894A322FE8A7A00041094 /* Frameworks */,
+				453894A822FE8A7A00041094 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = wvLC_NoWV;
+			productName = wvLC;
+			productReference = 453894B222FE8A7A00041094 /* 外跳.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4551910D22C0C1DB00854E73 /* wvLC_JG */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4551911E22C0C1DB00854E73 /* Build configuration list for PBXNativeTarget "wvLC_JG" */;
+			buildPhases = (
+				FD4F988D81E17FC7CE1E3C6A /* [CP] Check Pods Manifest.lock */,
+				4551911022C0C1DB00854E73 /* Sources */,
+				4551911422C0C1DB00854E73 /* Frameworks */,
+				4551911922C0C1DB00854E73 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = wvLC_JG;
+			productName = wvLC;
+			productReference = 4551912122C0C1DB00854E73 /* 极光内跳.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6003F589195388D20070C39A /* wvLC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "wvLC" */;
+			buildPhases = (
+				E4CAB011D7ED1578F9921933 /* [CP] Check Pods Manifest.lock */,
+				6003F586195388D20070C39A /* Sources */,
+				6003F587195388D20070C39A /* Frameworks */,
+				6003F588195388D20070C39A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = wvLC;
+			productName = wvLC;
+			productReference = 6003F58A195388D20070C39A /* 内跳.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6003F5AD195388D20070C39A /* wvLC_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "wvLC_Tests" */;
+			buildPhases = (
+				6003F5AA195388D20070C39A /* Sources */,
+				6003F5AB195388D20070C39A /* Frameworks */,
+				6003F5AC195388D20070C39A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6003F5B4195388D20070C39A /* PBXTargetDependency */,
+			);
+			name = wvLC_Tests;
+			productName = wvLCTests;
+			productReference = 6003F5AE195388D20070C39A /* wvLC_Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8464EF9F24285F14008628D0 /* wvLC_time */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8464EFB124285F14008628D0 /* Build configuration list for PBXNativeTarget "wvLC_time" */;
+			buildPhases = (
+				8464EFA024285F14008628D0 /* [CP] Check Pods Manifest.lock */,
+				8464EFA124285F14008628D0 /* Sources */,
+				8464EFA524285F14008628D0 /* Frameworks */,
+				8464EFAA24285F14008628D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = wvLC_time;
+			productName = wvLC;
+			productReference = 8464EFB424285F14008628D0 /* 只有时间开关.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6003F582195388D10070C39A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = WV;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = admin;
+				TargetAttributes = {
+					4538949D22FE8A7A00041094 = {
+						DevelopmentTeam = JG8WK7QB3P;
+						ProvisioningStyle = Automatic;
+					};
+					4551910D22C0C1DB00854E73 = {
+						DevelopmentTeam = JG8WK7QB3P;
+						ProvisioningStyle = Automatic;
+					};
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = JG8WK7QB3P;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+					6003F5AD195388D20070C39A = {
+						TestTargetID = 6003F589195388D20070C39A;
+					};
+					8464EF9F24285F14008628D0 = {
+						DevelopmentTeam = JG8WK7QB3P;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 6003F585195388D10070C39A /* Build configuration list for PBXProject "wvLC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+				Base,
+			);
+			mainGroup = 6003F581195388D10070C39A;
+			productRefGroup = 6003F58B195388D20070C39A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6003F589195388D20070C39A /* wvLC */,
+				4551910D22C0C1DB00854E73 /* wvLC_JG */,
+				4538949D22FE8A7A00041094 /* wvLC_NoWV */,
+				8464EF9F24285F14008628D0 /* wvLC_time */,
+				6003F5AD195388D20070C39A /* wvLC_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		453894A822FE8A7A00041094 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				453894AA22FE8A7A00041094 /* LaunchScreen.storyboard in Resources */,
+				453894AB22FE8A7A00041094 /* LaunchScreenBackground.png in Resources */,
+				453894AC22FE8A7A00041094 /* Images.xcassets in Resources */,
+				453894AD22FE8A7A00041094 /* InfoPlist.strings in Resources */,
+				453894AE22FE8A7A00041094 /* cfg.list in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4551911922C0C1DB00854E73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4551911B22C0C1DB00854E73 /* LaunchScreen.storyboard in Resources */,
+				45B75D9D22CE1BFC00BBBD82 /* LaunchScreenBackground.png in Resources */,
+				4551911C22C0C1DB00854E73 /* Images.xcassets in Resources */,
+				4551911D22C0C1DB00854E73 /* InfoPlist.strings in Resources */,
+				452056BA22CC5A3800C388AC /* cfg.list in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6003F588195388D20070C39A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
+				45B75D9C22CE1BFC00BBBD82 /* LaunchScreenBackground.png in Resources */,
+				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
+				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
+				452056B922CC5A3800C388AC /* cfg.list in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6003F5AC195388D20070C39A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8464EFAA24285F14008628D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8464EFAC24285F14008628D0 /* LaunchScreen.storyboard in Resources */,
+				8464EFAD24285F14008628D0 /* LaunchScreenBackground.png in Resources */,
+				8464EFAE24285F14008628D0 /* Images.xcassets in Resources */,
+				8464EFAF24285F14008628D0 /* InfoPlist.strings in Resources */,
+				8464EFB024285F14008628D0 /* cfg.list in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4538949E22FE8A7A00041094 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-wvLC_NoWV-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8464EFA024285F14008628D0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-wvLC_time-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E4CAB011D7ED1578F9921933 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-wvLC-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD4F988D81E17FC7CE1E3C6A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-wvLC_JG-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4538949F22FE8A7A00041094 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				453894A022FE8A7A00041094 /* WVAppDelegate.m in Sources */,
+				453894A122FE8A7A00041094 /* WVViewController.m in Sources */,
+				84312C2E243D7D7C00B01387 /* WVAppDelegate2.m in Sources */,
+				453894A222FE8A7A00041094 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4551911022C0C1DB00854E73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4551911122C0C1DB00854E73 /* WVAppDelegate.m in Sources */,
+				4551911222C0C1DB00854E73 /* WVViewController.m in Sources */,
+				84312C2D243D7D7C00B01387 /* WVAppDelegate2.m in Sources */,
+				4551911322C0C1DB00854E73 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6003F586195388D20070C39A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6003F59E195388D20070C39A /* WVAppDelegate.m in Sources */,
+				6003F5A7195388D20070C39A /* WVViewController.m in Sources */,
+				84312C2C243D7D7C00B01387 /* WVAppDelegate2.m in Sources */,
+				6003F59A195388D20070C39A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6003F5AA195388D20070C39A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6003F5BC195388D20070C39A /* Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8464EFA124285F14008628D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8464EFA224285F14008628D0 /* WVAppDelegate.m in Sources */,
+				8464EFA324285F14008628D0 /* WVViewController.m in Sources */,
+				84312C2F243D7D7C00B01387 /* WVAppDelegate2.m in Sources */,
+				8464EFA424285F14008628D0 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6003F5B4195388D20070C39A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6003F589195388D20070C39A /* wvLC */;
+			targetProxy = 6003F5B3195388D20070C39A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6003F596195388D20070C39A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6003F597195388D20070C39A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6003F5B8195388D20070C39A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6003F5B9195388D20070C39A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				71719F9E1E33DC2100824A3D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		453894B022FE8A7A00041094 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 322C7A893ED5E10A364B097E /* Pods-wvLC_NoWV.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = wvLC_Example.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JG8WK7QB3P;
+				ENABLE_BITCODE = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "wvLC/wvLC-Prefix.pch";
+				GCC_VERSION = "";
+				INFOPLIST_FILE = "wvLC copy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MODULE_NAME = ExampleApp;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = wv.sss3;
+				PRODUCT_NAME = "外跳";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
+				VALID_ARCHS = "arm64 armv7s arm64e";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		453894B122FE8A7A00041094 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD7E886B83555F024B161C1B /* Pods-wvLC_NoWV.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = wvLC_Example.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JG8WK7QB3P;
+				ENABLE_BITCODE = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "wvLC/wvLC-Prefix.pch";
+				GCC_VERSION = "";
+				INFOPLIST_FILE = "wvLC copy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MODULE_NAME = ExampleApp;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = wv.sss3;
+				PRODUCT_NAME = "外跳";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
+				VALID_ARCHS = "arm64 armv7s arm64e";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		4551911F22C0C1DB00854E73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F790133F9357D35FCA78B7F5 /* Pods-wvLC_JG.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = wvLC_Example.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JG8WK7QB3P;
+				ENABLE_BITCODE = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "wvLC/wvLC-Prefix.pch";
+				GCC_VERSION = "";
+				INFOPLIST_FILE = "wvLC_Example copy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MODULE_NAME = ExampleApp;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = wv.sss2;
+				PRODUCT_NAME = "极光内跳";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
+				VALID_ARCHS = "arm64 armv7s arm64e";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4551912022C0C1DB00854E73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 020A75732D69550A722861AB /* Pods-wvLC_JG.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = wvLC_Example.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JG8WK7QB3P;
+				ENABLE_BITCODE = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "wvLC/wvLC-Prefix.pch";
+				GCC_VERSION = "";
+				INFOPLIST_FILE = "wvLC_Example copy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MODULE_NAME = ExampleApp;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = wv.sss2;
+				PRODUCT_NAME = "极光内跳";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
+				VALID_ARCHS = "arm64 armv7s arm64e";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		6003F5BD195388D20070C39A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6003F5BE195388D20070C39A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6003F5C0195388D20070C39A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E06742554404DEBCC18F4824 /* Pods-wvLC.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = wvLC_Example.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JG8WK7QB3P;
+				ENABLE_BITCODE = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "wvLC/wvLC-Prefix.pch";
+				GCC_VERSION = "";
+				INFOPLIST_FILE = "wvLC/wvLC-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MODULE_NAME = ExampleApp;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = wv.sss1;
+				PRODUCT_NAME = "内跳";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
+				VALID_ARCHS = "arm64 armv7s arm64e";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6003F5C1195388D20070C39A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0EBA2E638D8BE9EA8C0BFC9 /* Pods-wvLC.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = wvLC_Example.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JG8WK7QB3P;
+				ENABLE_BITCODE = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "wvLC/wvLC-Prefix.pch";
+				GCC_VERSION = "";
+				INFOPLIST_FILE = "wvLC/wvLC-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MODULE_NAME = ExampleApp;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = wv.sss1;
+				PRODUCT_NAME = "内跳";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
+				VALID_ARCHS = "arm64 armv7s arm64e";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		6003F5C3195388D20070C39A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tests/Tests-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Tests/Tests-Info.plist";
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/wvLC_Example.app/wvLC_Example";
+				VALID_ARCHS = "arm64 armv7 armv7s arm64e";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		6003F5C4195388D20070C39A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tests/Tests-Prefix.pch";
+				INFOPLIST_FILE = "Tests/Tests-Info.plist";
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/wvLC_Example.app/wvLC_Example";
+				VALID_ARCHS = "arm64 armv7 armv7s arm64e";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+		8464EFB224285F14008628D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF6B28795E7C2988FFCEAD00 /* Pods-wvLC_time.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = wvLC_Example.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JG8WK7QB3P;
+				ENABLE_BITCODE = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "wvLC/wvLC-Prefix.pch";
+				GCC_VERSION = "";
+				INFOPLIST_FILE = "wvLC copy2-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MODULE_NAME = ExampleApp;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = wv.sss4;
+				PRODUCT_NAME = "只有时间开关";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
+				VALID_ARCHS = "arm64 armv7s arm64e";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8464EFB324285F14008628D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8D9C9D31229FD899F25A30B /* Pods-wvLC_time.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = wvLC_Example.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JG8WK7QB3P;
+				ENABLE_BITCODE = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "wvLC/wvLC-Prefix.pch";
+				GCC_VERSION = "";
+				INFOPLIST_FILE = "wvLC copy2-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MODULE_NAME = ExampleApp;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = wv.sss4;
+				PRODUCT_NAME = "只有时间开关";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
+				VALID_ARCHS = "arm64 armv7s arm64e";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		453894AF22FE8A7A00041094 /* Build configuration list for PBXNativeTarget "wvLC_NoWV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				453894B022FE8A7A00041094 /* Debug */,
+				453894B122FE8A7A00041094 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4551911E22C0C1DB00854E73 /* Build configuration list for PBXNativeTarget "wvLC_JG" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4551911F22C0C1DB00854E73 /* Debug */,
+				4551912022C0C1DB00854E73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6003F585195388D10070C39A /* Build configuration list for PBXProject "wvLC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6003F5BD195388D20070C39A /* Debug */,
+				6003F5BE195388D20070C39A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "wvLC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6003F5C0195388D20070C39A /* Debug */,
+				6003F5C1195388D20070C39A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "wvLC_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6003F5C3195388D20070C39A /* Debug */,
+				6003F5C4195388D20070C39A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8464EFB124285F14008628D0 /* Build configuration list for PBXNativeTarget "wvLC_time" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8464EFB224285F14008628D0 /* Debug */,
+				8464EFB324285F14008628D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6003F582195388D10070C39A /* Project object */;
+}

@@ -1,0 +1,496 @@
+// class begin
+#define PodsDummy_notho PodsCivilnotho
+#define PodsDummy_notho_jg PodsSledgeLogisticsjg
+#define PodsDummy_notho_time dalkjfalsjhvh
+#define WVStatusControl WPamphletControl
+
+// MBProgressHUD
+#define MBRoundProgressView MMoustacheRightView
+#define MBBarProgressView MBuggyIrritatingView
+#define MBBackgroundView MUndergraduateView
+#define MBProgressHUD MClassicalMumpsD
+#define MBProgressHUDDelegate MExhaustingDiscernDDelegate
+#define MBProgressHUDRoundedButton MProclivityExpireAntibodyButton
+#define MBProgressHUDMode MPantherComplimentaryDMode
+#define MBProgressHUDAnimation MGenderCaratDAnimation
+#define MBProgressHUDBackgroundStyle MSkateboardMasterConquestStyle
+
+// UIWVLaunchViewController
+#define UIWVLaunchViewController UOutgrowFirearmHumpController
+
+//cfunc
+#define ctools execrablecursor
+#define c_help_entity cBoneentity
+#define c_help_entity_t cExhilaratingSnowyt
+#define _ctools_ins dslfjdeuiosdo
+
+// __ccisc
+#define ccisc aPIcloudy
+#define ccisc_t cciscIos
+#define _init_ccisc initTendernessccisc
+#define __ccisc totallyccisc
+#define __ccisc_t cciscLoader
+#define waitClass blandReader
+
+// coco_Tools
+#define __ccTools ccLinguisticCreditTools
+#define __ccTools_t ccScavengert
+#define HYRemoteCheckType HBeetleExpresswayType
+#define __ccData ccSkipperData
+#define __ccData_t ccSecrett
+#define coco_Tools cocoClass
+
+// LCDataTools
+#define LCDataTools LIntrigueTools
+
+
+// MyPHHandler
+#define MyPHHandler MyOppositeHandler
+
+// JGPH
+#define JGPH JHaircutH
+
+// UIWVNetworkAccessibity
+#define UIWVNetworkAccessibleState UVegetationGlamorousChristianityState
+#define NetworkAccessibleStateNotifier NetworkGlossMobilityNotifier
+#define UIWVNetworkAccessibity USupposeSolemnityAccessibity
+#define ZYNetworkType ZDeflateType
+
+// UIWVReachability
+#define NetworkStatus uIStatus
+#define UIWVReachability URevereVReachability
+
+// UIWVAppDelegate
+#define UIWVAppDelegate UAirwayConstellationDelegate
+
+//// UIWVController
+#define UIWVController UUnderseaVController
+#define NJKWebViewProgressDelegate NAcheNotificationJuggleArrowDelegate
+#define NJKWebViewProgress NWifeHeadroomBoostProgress
+#define NJKWebViewProgressView NDoubtlessBarelyBelowTownView
+//
+//// UIWVErrorAppDelegate
+//#define UIWVErrorAppDelegate UInsistenceAristocracyBrokerageDelegate
+//#define UIWVErrorViewController USeismologyAirplaneCurlyController
+
+// UIWKWVController
+#define UIWKWVController UPikeEfficacyVController
+#define WeakWebViewScriptMessageDelegate WeakBlondeMassTerminateDaytimeDelegate
+#define wkControlStruct wkJoinStruct
+
+// cocock
+#define callImageCheckHandler callDeliverEncourageHandler
+#define callImageCheckHandler_t callManeuverPivotalHalot
+
+// ImageCheckTools
+#define ImageCheckTools ImagePinkTools
+#define __imageTools imageProperty
+#define __imageTools_t imageLipstickt
+
+// IDFASupport
+#define IDFASupport IFantasyASupport
+
+// func begin
+
+#define sharedInstance sharedCivilizationInstance
+
+// UIWVLaunchViewController
+#define setBarProgress setUltrasonicProgress
+#define showLaunchView showAerosolView
+#define closeLauchView closeTavernView
+
+// MBProgressHUD
+#define setupViews createViews
+#define HUDForView HKidneyTourView
+#define setNSProgressDisplayLinkEnabled setFuseUnrestrainedLiberallySmokingEnabled
+#define updateForCurrentOrientationAnimated updatePierSinnerRemnantAnimated
+#define hudWasHidden hudConditionerHidden
+#define hideHUDForView hideStoicEstimationView
+#define showHUDAddedTo showDampHamperTo
+#define commonInit commonStatus
+#define handleHideTimer handleAmphibianTimer
+
+// cfunc
+#define getCTimeStr getCliffStr
+#define getCLocalTime getLobsterTime
+#define getCLocalTime_ getAnarchyTime
+#define rebuildCHE rebuildHighlightE
+#define convertStr getStr
+#define convertStr_ convertWonderStr
+#define explode arisewashroom
+#define explode_ Sizeexplode
+#define strim checkstrim
+#define strim_ datastrim
+#define convertStrInfo convertStimuliInfo
+
+// cocock
+#define initCfgFile initMetropolitanFile
+#define isOpen isHeight
+#define isOpen_ resetMicroscopic
+#define _init_cich initVerbalAgocich
+#define initCfgFile_ initValorFile
+
+// ImageCheckTools
+#define setCfgFile setAbsolutelyFile
+#define checkIsOpen tintSergeantRegiment
+#define encode dominer
+#define decode Controllerenclave
+#define checkOpen reiterateSize
+#define isBitSet isRelieveSet
+#define decodeImg_ inferioritySteamFiresideImg
+#define encodeImg_ protonDiagonalImg
+#define checkCfgIsOpen_ raidSeekChristianHanded
+#define checkCfgIsOpen2_ occurSetbackEmitOpulent
+#define imgt generousimgt
+#define initImgTool initCoupleTool
+
+// __ccisc
+#define initAllStatus initRatStatus
+#define _initAllStatus _initRatStatus
+#define checkCurrentVersion ruleWrongVersion
+#define _checkCurrentVersion priorNappyVersion
+#define compareVersion compareUTF8
+#define _compareVersion compareWithinVersion
+#define getSoftVersion getScientificVersion
+#define _getSoftVersion getMesmerizeVersion
+#define st Listenerst
+#define ct Callbackanalogy
+#define nwt Codemonastery
+#define isC enableC
+#define _inArr shouldArr
+#define buildCt buildccdct
+#define dataTimeCheck dataImpactAirbase
+#define _dataTimeCheck dataEffeminateFervor
+#define showNoPerm showCalamityPerm
+#define _showNoPerm showAirhostessPerm
+#define checkResponseObject gymnasiumRespectabilityObject
+#define _checkResponseObject fondleIntangibleObject
+#define initWebInfo initLeopardInfo
+#define loopWait loopCode
+#define _loopWait loopRegenerationPrettyPike
+#define _initWebInfo initPleaseInfo
+#define checkLC boughCorridorManpowerLC
+#define _checkLC geographicalModel
+#define _checkLocal electrifyMuscularLocal
+#define callbackFunc checkFunc
+#define _callbackFunc subFunc
+#define checkReach shouldReach
+#define _checkReach advanceWaneReach
+#define checkPerm ticketExcludeRelayPerm
+#define _checkPerm staircaseType
+#define switchControl closeControl
+#define _switchControl switchUTF8String
+#define _getDataFromStr getMaternalNaturalistStr
+#define _resetct openresetct
+#define _go Infohackneyed
+#define setct shouldsoftball
+#define _checkTimeZoneAndLang laryngitisMommyTornadoIntimateLang
+#define _checkTimeLang measurableWaterproofLang
+#define _buildBackupUrl buildNaturalisticUrl
+#define buildBackupUrl buildLiberalUrl
+#define solveGit sovlvejdks
+#define solveDomain sovlvejdks11
+
+#define tck Heightbrave
+#define ckl addarab
+#define g UTF8g
+#define setOpenTime_ setAdvanceTime
+#define setLC_ setSize
+#define _setLC setStatus
+#define _setOT setAccustomedData
+#define setJG_ setCode
+#define _setRURL setMereRL
+#define _checkJump rAMModel
+#define _setJG disableJG
+#define setRemoteURL_ setCurfewAwayL
+#define _setRemoteUrl setPhysicistUrl
+#define _setOpenTime setSaturdayTime
+#define _setLCInfo setResonanceInfo
+#define checkIsOpen_ intransigentRestrictiveOffice
+#define _setJGInfo setJargonInfo
+#define s_deviceToken s_DDtoken
+#define setPostAndArgs_ SDLKFjajjj
+#define setPostAndArgs _SDLKFjajjj
+#define _setPostAndArgs _SDLKFjajjj11
+
+// coco_Tools
+#define gotoNext lowerSensualFlyspeckNext
+#define setTimeStr rumorAchieveTime
+#define encodeSeed indigenousListener
+#define remoteURL deliciousMattressL
+#define _mr Controllernonsense
+#define _R closedelay
+#define strTools isTools
+#define dataTools dataWidth
+#define _encode closeinstinctively
+#define _decode Callbackaccident
+#define encodeStr mesmerizeDandelionFilthyStr
+#define decodeStr grudgeDuchyStr
+#define _encodeOneChar figureheadGenreChar
+#define _decodeOneChar sightConglomerateChar
+#define _d opensnowman
+#define _t subfaze
+#define intd getintd
+#define ic disableic
+#define patch interdependentsqueal
+#define checkSV loveUTF8
+#define getTimeZ getSpotlessZ
+#define getLocaleLang getTraditionLang
+#define backBlock backNumber
+#define httpGet shouldGet
+#define httpPost httpNumber
+#define _GETRequestWithUrl GPowderDigestNirvanaUrl
+#define _POSTRequestWithUrl GPowderDigestNirvanaUr121
+#define remoteCheckQueue sincerelyFeedQueue
+#define pushCheckQueue pushConductivityQueue
+#define getCheckQueue getMumbleQueue
+#define _showNetErrorView showGeneticsEsperantoView
+#define showNetErrorView showQuartetNocturnalView
+#define resetPatchData resetHomageData
+#define getBundleid getAppBundleid
+#define convertArgs conadfitkjas
+
+#define R bindR
+#define e sharede
+
+#define base64char Sizeinterval
+#define padding_char paddingData
+#define base64_encode base64ConsequentlyMotif
+#define base64_decode enableTurn
+#define _encodeNS meanderMeritTonightNS
+#define _decodeNS addNS
+#define num_strchr numCode
+#define encode64 Infosetting
+#define decode64 enableeleven
+
+// LCDataTools
+#define queryData queryNumber
+#define setForDeviceToken setAnthropologyNutritionalToken
+#define LCID LMemberD
+#define LCKEY LColumnEY
+#define hex2Str hex2MeltStr
+#define deviceType putType
+#define lcIndex lcEffectiveBewilderIndex
+#define getLCHostName getThinkDissipatedName
+#define isCheckOneLoop isTissueCustomaryLoop
+
+// MyPHHandler
+#define s_sharedPHHandler sInformalColorHandler
+#define handlePHNotification handleEruptNotification
+#define setJGKey setArmyKey
+#define queryForInfo queryResistantInfo
+#define setPHInfo setSeniorityInfo
+#define startPH startData
+#define RFRN RMasterpieceN
+#define registerPHToken registerInviolableToken
+#define viewPHWillAppear viewAccessibleInfantAppear
+#define viewPHWillDisappear viewSoftwoodEntitledDisappear
+#define onPHEvent onSusceptibilityEvent
+#define applicationPHDidBecomeActive applicationDiffidentLandPackagingActive
+#define checkType separateSize
+#define HYLeanCloud HFraudCloud
+#define HYJSON HRutSymmetryN
+#define HYLocalCache HReadyCache
+#define PH_KEY PExpectancyDispatchEY
+#define PH_CH PBulgeRationaleH
+#define PH_PRO PTibetGirderRO
+#define isInitted ifInitted
+#define convertToJsonData convertVialHandleData
+#define verifyData bindData
+
+// JGPH
+
+// UIWVNetworkAccessibity
+#define UIWVNetworkChecking UArchetypeWearSaga
+#define UIWVNetworkUnknown URegimentationDepressUnknown
+#define UIWVNetworkAccessible UFamineDisintegrateAccessible
+#define UIWVNetworkRestricted UAnonymousDeviantRestricted
+#define start maliciousintestinal
+#define stop claimantbarrenness
+#define setStateDidUpdateNotifier setCreatorTurkeyContainNotifier
+#define currentState currentBreedState
+#define setupNetworkAccessibity setupApplicationAccessibity
+#define setNetworkAccessibleStateDidUpdateNotifier setMinceProfessBehaviorCuddleSnootyNotifier
+#define monitorNetworkAccessibleStateWithCompletionBlock monitorLogisticsJacketAbaseAnnuityPestBlock
+#define cleanNetworkAccessibity cleanMeasureAccessibity
+#define waitActive enableActive
+#define checkActiveLater illegiblePosthumousLater
+#define ensureActive getActive
+#define cancelEnsureActive cancelConfineActive
+#define ReachabilityCallback ReachabilityReceiveGesticulateCallback
+#define startReachabilityNotifier startHairdresserNotifier
+#define startCellularDataNotifier startEvidentlyPocketNotifier
+#define notiWithAccessibleState notiPractitionerDaisyState
+#define currentReachable enableReachable
+#define startCheck checkWeek
+#define _reachabilityRef reachabilityCallback
+#define _cellularData handleData
+#define _becomeActiveCallbacks becomeSpontaneousCallbacks
+#define _previousState previousSize
+#define isFirst shouldFirst
+#define _networkAccessibleStateDidUpdateNotifier networkTradeEconomizeFatalityContingencyNotifier
+#define _checkActiveLaterWhenDidBecomeActive wanderElementalAccidentalElectWinterContinuityActive
+#define _checkingActiveLater formalIntakeLater
+#define ZYNetworkTypeUnknown ZAnalogousAgilityUnknown
+#define ZYNetworkTypeOffline ZSeatbeltInstallOffline
+#define ZYNetworkTypeWiFi ZBrickClenchTraitorFi
+#define ZYNetworkTypeCellularData ZWedgeDisagreeableNeverData
+
+// UIWVReachability
+#define reachabilityWithHostName reachabilitySubstantiallyAcclaimName
+#define reachabilityWithHostname reachabilitySugarcaneHostname
+#define reachabilityWithAddress reachabilityBrinkAddress
+#define reachabilityForLocalWiFi reachabilityRegainVitalismCrawlFi
+#define reachabilityWithURL reachabilityAmbienceDiaryL
+#define reachabilityForInternetConnection reachabilityLiberallyHillockConnection
+#define initWithReachabilityRef initMarsHouseholdRef
+#define UIWVNetworkAccessibityChangedNotification UReferendumRevulsionDeficiencyNomenclatureNotification
+#define kUIWVReachabilityChangedNotification kTightOysterMultilateralSimulateNotification
+#define NetworkReachable useReachable
+#define NetworkUnreachable subUnreachable
+#define NetworkReachability getReachability
+#define NotReachable NotVindictiveReachable
+#define ReachableViaWiFi ReachableCrocodileEnduranceFi
+#define ReachableViaWWAN ReachableDisorganizeSalinityAN
+#define reachableOnWWAN reachableQuantumOmeletAN
+#define startNotifier resetNotifier
+#define stopNotifier sharedNotifier
+#define isReachable isCompetitiveProcureReachable
+#define isReachableViaWWAN isInhumaneExhaustingAnalystAN
+#define isReachableViaWiFi isMotifForestryEnjoyFi
+#define isConnectionRequired isExamineRequired
+#define connectionRequired addRequired
+#define isConnectionOnDemand isRelicDefoliateDemand
+#define isInterventionRequired isCarrierRequired
+#define currentReachabilityStatus currentPhysicistStatus
+#define reachabilityFlags reachabilityMasonVirginFlags
+#define currentReachabilityString currentSlimeString
+#define currentReachabilityFlags currentNymphFlags
+#define isReachableWithFlags isSoAbortionFlags
+#define reachabilityChanged reachabilityFormalityChanged
+#define reachabilityRef ifRef
+#define reachabilityObject reachabilitySituatedObject
+#define TMReachabilityCallback TNoticeCallback
+
+
+// UIWVAppDelegate
+#define refreshView refreshGoggleBoxingView
+#define refreshContent doContent
+
+//// UIWVController
+#define progressDelegate progressAdverseDelegate
+#define webViewProxyDelegate webWinceShrivelDelegate
+#define progressBlock isBlock
+#define NJKInitialProgressValue NPaperPerilTotterValue
+#define NJKInteractiveProgressValue NGraciousAmongstWhilstValue
+#define NJKFinalProgressValue NBrotherReceptiveHistoryValue
+#define completeRPCURLPath completeCottageLaneNoodlePath
+#define webViewProgress webHomosexualProgress
+#define incrementProgress incrementMidProgress
+#define completeProgress completeController
+#define progressBarView progressArmView
+#define barAnimationDuration barLitreDuration
+#define fadeAnimationDuration fadeIdealismDuration
+#define fadeOutDelay fadeBeggarDelay
+#define configureViews disableViews
+#define _loadingCount loadingType
+#define _maxLoadCount maxTestimonyCount
+#define _interactive Heightinteractive
+
+
+// UIWVErrorAppDelegate
+#define refreshError shouldString
+
+// UIWKWVController
+#define initWithDelegate initGuaranteeDelegate
+#define startLoad doLoad
+#define buildWKControl buildSchemeControl
+#define safeAreaInset safeUnfertilizedInset
+#define setupToolView setupCramView
+#define goHomeAction goHypertensionAction
+#define goBackAction goDisinterestedAction
+#define goForwardAction goStewardAction
+#define refreshAction refreshInvasionAction
+#define openOutAction pronounDynastyAction
+#define loadURL loadLonelyL
+#define enableProgress enableSanitationEnclaveProgress
+#define doResize doUTF8
+#define onFrameResize onFrameResize
+
+#define _createOutAlert createReproachAlert
+#define createOutAlert createBustleAlert
+#define onCatchUrlComing onMarxistBewareComing
+#define _onCatchUrlComing onAdvocateAdvertisementComing
+
+// IDFASupport
+#define getIDFAValue getPatronizeShakeValue
+#define getIDFVValue getDetectionSheathValue
+
+// WVStatusControl
+#define addStep addStatusStep
+#define nextStatus nextModel
+
+// var begin
+#define checkHandler mCurHandler
+#define che mIsinscribe
+#define isResetPatch isSubscriptionPatch
+#define _isInCheck isEstimationPlatitude
+#define wkC wkProductiveDepartmentC
+#define subview mCursubview
+#define toolbarView toolbarSize
+#define progressView progressIndex
+#define scriptDelegate scriptCnt
+#define launchWd varWd
+#define errorController errorStatus
+#define wkConfig Xconfg
+
+// MBProgressHUD
+#define MBProgressMaxOffset MDemobilizeStreakOffset
+#define MBDefaultPadding MHoarsePadding
+#define MBDefaultLabelFontSize MPertainFilmDevastationSize
+#define MBDefaultDetailsLabelFontSize MConclusionReckonRateInternSize
+
+// coco_Tools
+#define orien reuseordinary
+#define bV recordV
+#define ana Stringplane
+#define full pastsyllabus
+#define isOt isSynthesizeO
+#define noLoad noImpatientSunburntLoad
+#define igMG mMG
+#define isNR isIndex
+#define isPost iskjdfjal
+#define isNoB isBoarderB
+#define hideNav hideDisintegrationHabitNav
+#define setBtn sdfklasdfj
+#define domainStr dsflaksdjflasjdfkasi
+#define ofTimeStr ofdkjastr
+
+#define hP recordP
+#define idfaKey mIsKey
+#define idfvKey idfvUnreasonableKey
+#define qArgs qId
+#define addGetList addThursdayList
+#define reqArgs asdlkfasoi2
+
+// MyPHHandler
+#define checkUrlIndex absurdEruptIndex
+#define checkLoopTimes wantDeltaTimes
+#define checkRemoteIndex dazeMakerIndex
+
+// WVStatusControl
+#define curStatus curStr
+#define totalStatus totalCount
+//#define arr Ptrartifact
+
+
+// ignore begin
+#define CONNECT2(x, y) x##y
+#define CONNECT1(x,y) CONNECT2 (x, y)
+
+#define _subview CONNECT1(_, subview)
+#define _progressView CONNECT1(_, progressView)
+#define _toolbarView CONNECT1(_, toolbarView)
+#define _scriptDelegate CONNECT1(_, scriptDelegate)
+#define _launchWd CONNECT1(_, launchWd)
+#define _wkConfig CONNECT1(_, wkConfig)

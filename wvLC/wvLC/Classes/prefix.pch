@@ -1,0 +1,2 @@
+#define HY_IDFA_USE
+#import "realprefix.pch"

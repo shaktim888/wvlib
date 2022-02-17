@@ -1,0 +1,1595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		2CE3E0F7EF9B20FC4FBD122F91C64198 /* JPush */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 8FECBDA288EFDA57C5108034E2414BDF /* Build configuration list for PBXAggregateTarget "JPush" */;
+			buildPhases = (
+			);
+			dependencies = (
+				61A7D75865C20272D53BC19298DA2A93 /* PBXTargetDependency */,
+			);
+			name = JPush;
+			productName = JPush;
+		};
+		6DCA67AEEA91E7138CA0A2BC4F993DA6 /* JCore */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 4EE7338F2FBA1E0EC226EF8C45298469 /* Build configuration list for PBXAggregateTarget "JCore" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = JCore;
+			productName = JCore;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		00BE52937CAD5A6F56C5D497E87C4D36 /* IDFASupport.m in Sources */ = {isa = PBXBuildFile; fileRef = B28C167710C3865DE4350BB149D24BAC /* IDFASupport.m */; };
+		00E07BE330F1FE341926193C15BBF094 /* UIWVAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 12543846D99F90044AD0D635DD500302 /* UIWVAppDelegate.m */; };
+		038EFC01EF3131A899D3D745CF4CA813 /* notho_jg-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 76877E0977F0F895055F711FF1FBDDE8 /* notho_jg-dummy.m */; };
+		054D69F082057210CA5E5A5C7761380B /* cfunc.m in Sources */ = {isa = PBXBuildFile; fileRef = F92AC96F63FA2BF39B51882FFFD2A77D /* cfunc.m */; };
+		0BA5AEB062A8CE81C6EA8AEBE943D967 /* MyPHHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = EB51F9FF35254EC4148F59EB4CF975CF /* MyPHHandler.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0EFC08852F2FBBCCE527C9CC3F35905D /* ImageCheckTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 08B0D86952696C545E32AE583439DA21 /* ImageCheckTools.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1156A8368741A9DC88A052A9FCAC4251 /* UIWVReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = F53E0FDAB86D2ACD3B015FC285B8F64D /* UIWVReachability.m */; };
+		12714A867F05E197CB076160C937A909 /* ImageCheckTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CFBA1B0A2C4BDEDAC8E948CBB1139F1 /* ImageCheckTools.m */; };
+		127F3EFE11751891DD8EBF32F1D7B616 /* UIWKWVController.h in Headers */ = {isa = PBXBuildFile; fileRef = 74EBB4C045DE1D11A9563F06E3F21F2C /* UIWKWVController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		14D2762CD9A87C0024CD0FAC0A371715 /* ImageCheckTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CFBA1B0A2C4BDEDAC8E948CBB1139F1 /* ImageCheckTools.m */; };
+		18F7FA8A479800F4C77CFD2771713E62 /* IDFASupport.h in Headers */ = {isa = PBXBuildFile; fileRef = 8791FF4A2F91D0BCF5A9BAB8DE8DD9A5 /* IDFASupport.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1A6C7DD68ECB37012E625C9399BE8B48 /* Pods-wvLC-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EE454FDA3D14E2EFACD137AE2770014 /* Pods-wvLC-dummy.m */; };
+		1A8B3E9E0C11FCF20B86C44DA525619F /* UIWVReachability.h in Headers */ = {isa = PBXBuildFile; fileRef = D156A79E5FEFF6310BC50F5C7CED16D2 /* UIWVReachability.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1BB6059F9A6E056E167AB515F8915D6D /* cocock.h in Headers */ = {isa = PBXBuildFile; fileRef = FBE939E74C3C455AC9025302F0AF3B5F /* cocock.h */; settings = {ATTRIBUTES = (Project, Public, ); }; };
+		1EF820844BF9AEA3CBFD64FBF177A526 /* coco_Tools.m in Sources */ = {isa = PBXBuildFile; fileRef = 049F520317F92B16B4D77E6126C20387 /* coco_Tools.m */; };
+		246B8CAF988860217247982152EFDF3E /* UIWVReachability.h in Headers */ = {isa = PBXBuildFile; fileRef = D156A79E5FEFF6310BC50F5C7CED16D2 /* UIWVReachability.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2746B28CED32D8978FE04DC89B095C4B /* LCDataTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 5210FC925A0134C3D6159AB29E2EB2C6 /* LCDataTools.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2AD06A2109C8966FD8B57F65B079BC46 /* coco_Tools.m in Sources */ = {isa = PBXBuildFile; fileRef = 049F520317F92B16B4D77E6126C20387 /* coco_Tools.m */; };
+		30E4CCF3509215DB6777440C70041783 /* IDFASupport.h in Headers */ = {isa = PBXBuildFile; fileRef = 8791FF4A2F91D0BCF5A9BAB8DE8DD9A5 /* IDFASupport.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		348034F77D26D49BC6B7F25F5070AEBE /* coco_Tools.m in Sources */ = {isa = PBXBuildFile; fileRef = 049F520317F92B16B4D77E6126C20387 /* coco_Tools.m */; };
+		3EFDA25D12BFEAC72DEC5FEF76BBD281 /* LCDataTools.m in Sources */ = {isa = PBXBuildFile; fileRef = A254F6E4C358B513A2744E5536E33D0D /* LCDataTools.m */; };
+		4C0AF446A8E45E96D7FF4D710B98B357 /* JGPH.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D457F477AD2B75B38DD9C954EF4926B /* JGPH.m */; };
+		51A60830D16AD2B60B02FAB46A1886DE /* __ccisc.h in Headers */ = {isa = PBXBuildFile; fileRef = EBC5CF601598F3CC0E201F8C6E04D617 /* __ccisc.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		520FD2407D7E2DCB49E68035BC6B4E69 /* cfunc.m in Sources */ = {isa = PBXBuildFile; fileRef = F92AC96F63FA2BF39B51882FFFD2A77D /* cfunc.m */; };
+		52A5CCC446C3DE066C0C72E9A9F649F7 /* cocock.h in Headers */ = {isa = PBXBuildFile; fileRef = FBE939E74C3C455AC9025302F0AF3B5F /* cocock.h */; settings = {ATTRIBUTES = (Project, Public, ); }; };
+		52DEA0DF1F23FD9EB19AA99FC5388113 /* cfunc.h in Headers */ = {isa = PBXBuildFile; fileRef = D07E30D68532795A8A16F5D84E5D7F66 /* cfunc.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5565E0DF33AD9C7C2A986F84C3A22F42 /* prefix.pch in Sources */ = {isa = PBXBuildFile; fileRef = 6B84C0286C75732DB43621CBD2175ADE /* prefix.pch */; };
+		5733D0431D5C0E08A2CCF9395779E361 /* cocock.m in Sources */ = {isa = PBXBuildFile; fileRef = 60C08FA0CB13A391FBD0A28B673CCDC1 /* cocock.m */; };
+		5BB3B329D897F2F92265E8D12CB4979D /* notho-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 953BEF6E558F858D2374A7809576FD68 /* notho-dummy.m */; };
+		5BCCC61C91CB20B6E9D9C1577E152C31 /* __ccisc.m in Sources */ = {isa = PBXBuildFile; fileRef = A431FFCC8F74482B0D1DDFF03D8E34FD /* __ccisc.m */; };
+		5EE8847ED7372B8D1B946E9477E43CF0 /* JGPH.h in Headers */ = {isa = PBXBuildFile; fileRef = F37353F25C70AE9C5BA59F4BE8E15D78 /* JGPH.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6053A6BB5EDC6965E534A3142DA47708 /* UIWVNetworkAccessibity.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A953DD1EE942017E12E2693E3DD368E /* UIWVNetworkAccessibity.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		68F82245AF224B0A667EB0F325A4B056 /* UIWVErrorAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2638F59458F3CC0B8B39A3BD7353FEF9 /* UIWVErrorAppDelegate.m */; };
+		69B80F3940C5D5B4C8BA00F17230BCB3 /* JGPH.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D457F477AD2B75B38DD9C954EF4926B /* JGPH.m */; };
+		6A0618D3B78ADB52B5ECAC986A7152A3 /* coco_Tools.h in Headers */ = {isa = PBXBuildFile; fileRef = D680A3CA631B9FA34814C82038AB4049 /* coco_Tools.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6B36D74EF12C1DF1E03057B24B62DEDF /* LCDataTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 5210FC925A0134C3D6159AB29E2EB2C6 /* LCDataTools.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6DE1C956A3EBA67009B014F7BF8B420B /* __ccisc.h in Headers */ = {isa = PBXBuildFile; fileRef = EBC5CF601598F3CC0E201F8C6E04D617 /* __ccisc.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		76F0403773AC653BBA6B9616F03F7478 /* MyPHHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = EB51F9FF35254EC4148F59EB4CF975CF /* MyPHHandler.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7742F3C986DAEEDF5F2689D5AD2FE237 /* MyPHHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = BC60617634F1F35E1F8BCE2E3BE313C7 /* MyPHHandler.m */; };
+		7AAD0C492503EBE665B3C0163D6B9017 /* ImageCheckTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CFBA1B0A2C4BDEDAC8E948CBB1139F1 /* ImageCheckTools.m */; };
+		7C1D36FD6A7A6D3B69FD64CE4962ADE8 /* UIWVAppDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 806C6C39A3D59E6B40EE479D7014C753 /* UIWVAppDelegate.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7DD47F3C916A061CD7F3786EFF4D5E06 /* UIWKWVController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1152C5A0E999A7C21E4E273F8F05940 /* UIWKWVController.m */; };
+		80A8B523605F4B0E6FBB22F1A9DDD793 /* UIWVAppDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 806C6C39A3D59E6B40EE479D7014C753 /* UIWVAppDelegate.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		846D3CD02366988200B88F24 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 846D3CCE2366988200B88F24 /* MBProgressHUD.m */; };
+		846D3CD12366988200B88F24 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 846D3CCE2366988200B88F24 /* MBProgressHUD.m */; };
+		846D3CD22366988200B88F24 /* MBProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 846D3CCF2366988200B88F24 /* MBProgressHUD.h */; };
+		846D3CD32366988200B88F24 /* MBProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 846D3CCF2366988200B88F24 /* MBProgressHUD.h */; };
+		846D3CD623669B5900B88F24 /* UIWVLaunchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 846D3CD423669B5800B88F24 /* UIWVLaunchViewController.m */; };
+		846D3CD723669B5900B88F24 /* UIWVLaunchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 846D3CD423669B5800B88F24 /* UIWVLaunchViewController.m */; };
+		846D3CD823669B5900B88F24 /* UIWVLaunchViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 846D3CD523669B5800B88F24 /* UIWVLaunchViewController.h */; };
+		846D3CD923669B5900B88F24 /* UIWVLaunchViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 846D3CD523669B5800B88F24 /* UIWVLaunchViewController.h */; };
+		882242BD1AB85668F6B83523415DCC1A /* cfunc.h in Headers */ = {isa = PBXBuildFile; fileRef = D07E30D68532795A8A16F5D84E5D7F66 /* cfunc.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		89F69CB5080E73F4D856E5E38836EEB9 /* UIWVReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = F53E0FDAB86D2ACD3B015FC285B8F64D /* UIWVReachability.m */; };
+		8D4EC9601B35228723DC39709ED9E450 /* UIWVNetworkAccessibity.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A953DD1EE942017E12E2693E3DD368E /* UIWVNetworkAccessibity.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9142CC13B1D5522322B8D6086F8FDA75 /* UIWVErrorAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2638F59458F3CC0B8B39A3BD7353FEF9 /* UIWVErrorAppDelegate.m */; };
+		9149BBFB191E23154FD29F167E55573B /* ImageCheckTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 08B0D86952696C545E32AE583439DA21 /* ImageCheckTools.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		949EA97F69384F523DA9EB2F40C63FAF /* LCDataTools.m in Sources */ = {isa = PBXBuildFile; fileRef = A254F6E4C358B513A2744E5536E33D0D /* LCDataTools.m */; };
+		97B5FBDD43BEC888EBB74B1695B312A1 /* MyPHHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = EB51F9FF35254EC4148F59EB4CF975CF /* MyPHHandler.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9CF5560AF5E6BD67660ACE1DC523CC79 /* cfunc.h in Headers */ = {isa = PBXBuildFile; fileRef = D07E30D68532795A8A16F5D84E5D7F66 /* cfunc.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9D94D91CBD0A4F5EC967E60BF9CE8BA5 /* notho_nowv-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EEFE01E52561651AFBEAD426AC92E8C /* notho_nowv-dummy.m */; };
+		A1217D6397626BABA8C0245C636660CD /* __ccisc.h in Headers */ = {isa = PBXBuildFile; fileRef = EBC5CF601598F3CC0E201F8C6E04D617 /* __ccisc.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A4DBACBCD44F070612A8B530BAE78B68 /* UIWVReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = F53E0FDAB86D2ACD3B015FC285B8F64D /* UIWVReachability.m */; };
+		AAC8E6C96925E7EC265B5F1554540765 /* cocock.h in Headers */ = {isa = PBXBuildFile; fileRef = FBE939E74C3C455AC9025302F0AF3B5F /* cocock.h */; settings = {ATTRIBUTES = (Project, Public, ); }; };
+		ABB5FEBCC5EF497F9BA81F9545D85E58 /* cocockCplus.h in Headers */ = {isa = PBXBuildFile; fileRef = 64605135AD1DC6E6DC4BC8EB8067B629 /* cocockCplus.h */; settings = {ATTRIBUTES = (Project, Public, ); }; };
+		ABF94F8969030252BF1EA414C3A2794A /* __ccisc.m in Sources */ = {isa = PBXBuildFile; fileRef = A431FFCC8F74482B0D1DDFF03D8E34FD /* __ccisc.m */; };
+		AC561F5BCE0954CE02CAC5D093BABCEC /* JGPH.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D457F477AD2B75B38DD9C954EF4926B /* JGPH.m */; };
+		AE40A9AE9781B3C7C05349E6EEE8E82F /* coco_Tools.h in Headers */ = {isa = PBXBuildFile; fileRef = D680A3CA631B9FA34814C82038AB4049 /* coco_Tools.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		AF89B837D67C79EBEE9BC544A0745A73 /* IDFASupport.m in Sources */ = {isa = PBXBuildFile; fileRef = B28C167710C3865DE4350BB149D24BAC /* IDFASupport.m */; };
+		B01A2E854A9DFA93CAE821CE2B1ED1B7 /* prefix.pch in Sources */ = {isa = PBXBuildFile; fileRef = 6B84C0286C75732DB43621CBD2175ADE /* prefix.pch */; };
+		B0478ED560A3A2371A35810545A5806B /* realprefix.pch in Sources */ = {isa = PBXBuildFile; fileRef = EBAD124A56E6C1333B12369B3EA85261 /* realprefix.pch */; };
+		B0A1F55573A1343B02B329E36537CC7E /* UIWVErrorAppDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FE49966FA228FF686397630298D732A /* UIWVErrorAppDelegate.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B1F664281105C6424E760EF27E140F05 /* ImageCheckTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 08B0D86952696C545E32AE583439DA21 /* ImageCheckTools.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B3965A1E1B9164B44A55357AD7FD9554 /* MyPHHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = BC60617634F1F35E1F8BCE2E3BE313C7 /* MyPHHandler.m */; };
+		B4504C27F3EA19DA25A7F294C03CEE72 /* JGPH.h in Headers */ = {isa = PBXBuildFile; fileRef = F37353F25C70AE9C5BA59F4BE8E15D78 /* JGPH.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B455F6FBE0E48F20DF3B5523EBC94B6B /* UIWKWVController.h in Headers */ = {isa = PBXBuildFile; fileRef = 74EBB4C045DE1D11A9563F06E3F21F2C /* UIWKWVController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B879B34DB396A4E9EEC3B1C5E0613A3D /* Pods-wvLC_JG-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C77170DC8652B1CB743D21F3EC68E777 /* Pods-wvLC_JG-dummy.m */; };
+		BE0E4DFF1D538C68E5B63322EC5839BC /* LCDataTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 5210FC925A0134C3D6159AB29E2EB2C6 /* LCDataTools.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C4BCBE2F2DE8C510028E54DFAE429021 /* cocock.m in Sources */ = {isa = PBXBuildFile; fileRef = 60C08FA0CB13A391FBD0A28B673CCDC1 /* cocock.m */; };
+		C5AE12FB27BA6AE7002368AD58B5765C /* UIWVErrorAppDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FE49966FA228FF686397630298D732A /* UIWVErrorAppDelegate.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C73FE233CA1387B691DEB2506D6B9AAF /* UIWVReachability.h in Headers */ = {isa = PBXBuildFile; fileRef = D156A79E5FEFF6310BC50F5C7CED16D2 /* UIWVReachability.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CBDFD39DADEB9A73E7E22DDBA4899FCF /* __ccisc.m in Sources */ = {isa = PBXBuildFile; fileRef = A431FFCC8F74482B0D1DDFF03D8E34FD /* __ccisc.m */; };
+		CC73E26408D7900B2E51305835BEA31B /* UIWVAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 12543846D99F90044AD0D635DD500302 /* UIWVAppDelegate.m */; };
+		CDFD84F0AAE95042FDD1B6BE83068B11 /* cfunc.m in Sources */ = {isa = PBXBuildFile; fileRef = F92AC96F63FA2BF39B51882FFFD2A77D /* cfunc.m */; };
+		CFC5D10319F12FFA06255AB88FD2C0FF /* cocock.m in Sources */ = {isa = PBXBuildFile; fileRef = 60C08FA0CB13A391FBD0A28B673CCDC1 /* cocock.m */; };
+		D1D9CC96167234F8FA3A260670FEABFD /* MyPHHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = BC60617634F1F35E1F8BCE2E3BE313C7 /* MyPHHandler.m */; };
+		D4347EF27FF89B46BFEED4347D50E06D /* UIWVErrorAppDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FE49966FA228FF686397630298D732A /* UIWVErrorAppDelegate.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D4DBB4A57EF66D24C986F9FB761EBDFE /* cocockCplus.h in Headers */ = {isa = PBXBuildFile; fileRef = 64605135AD1DC6E6DC4BC8EB8067B629 /* cocockCplus.h */; settings = {ATTRIBUTES = (Project, Public, ); }; };
+		D8215125704D3AA409BAD7D39C21F6EF /* UIWVNetworkAccessibity.m in Sources */ = {isa = PBXBuildFile; fileRef = F6AA460D1ABC4B1D509FF7D5FE59CE4C /* UIWVNetworkAccessibity.m */; };
+		DAAB0207AC04B0045084E8FF4FF1E905 /* Pods-wvLC_NoWV-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C981411C67EC50CCDB9B2A4C356B550F /* Pods-wvLC_NoWV-dummy.m */; };
+		DAB42D8EFDE18140BE6F1E8870FBBC71 /* realprefix.pch in Sources */ = {isa = PBXBuildFile; fileRef = EBAD124A56E6C1333B12369B3EA85261 /* realprefix.pch */; };
+		DF4B6CF617ED1C90E4FA621837C765C6 /* coco_Tools.h in Headers */ = {isa = PBXBuildFile; fileRef = D680A3CA631B9FA34814C82038AB4049 /* coco_Tools.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E49EFEFC75845A427D64B4D87E56F274 /* UIWVNetworkAccessibity.m in Sources */ = {isa = PBXBuildFile; fileRef = F6AA460D1ABC4B1D509FF7D5FE59CE4C /* UIWVNetworkAccessibity.m */; };
+		E54CC0027ACEB38A1CF2C134EC542D71 /* IDFASupport.m in Sources */ = {isa = PBXBuildFile; fileRef = B28C167710C3865DE4350BB149D24BAC /* IDFASupport.m */; };
+		E93337617A9A83C46EDB9F54541CAE85 /* UIWVErrorAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2638F59458F3CC0B8B39A3BD7353FEF9 /* UIWVErrorAppDelegate.m */; };
+		EB5E54F152408EC9B5D8B5C53E3BD519 /* prefix.pch in Sources */ = {isa = PBXBuildFile; fileRef = 6B84C0286C75732DB43621CBD2175ADE /* prefix.pch */; };
+		EDCB5E5089F7EFB5B7DFB5C0C5D92DE3 /* UIWKWVController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1152C5A0E999A7C21E4E273F8F05940 /* UIWKWVController.m */; };
+		F1AD34F72812E87B1889C8318E77BD1C /* UIWVNetworkAccessibity.m in Sources */ = {isa = PBXBuildFile; fileRef = F6AA460D1ABC4B1D509FF7D5FE59CE4C /* UIWVNetworkAccessibity.m */; };
+		F40D8FF8605169945496E4F46840E570 /* UIWVNetworkAccessibity.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A953DD1EE942017E12E2693E3DD368E /* UIWVNetworkAccessibity.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F4F34AD2F48080091F2C9E428C3989A9 /* LCDataTools.m in Sources */ = {isa = PBXBuildFile; fileRef = A254F6E4C358B513A2744E5536E33D0D /* LCDataTools.m */; };
+		F5F88CCCDE88C8F5D6FDFC66A5526EF4 /* IDFASupport.h in Headers */ = {isa = PBXBuildFile; fileRef = 8791FF4A2F91D0BCF5A9BAB8DE8DD9A5 /* IDFASupport.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F97952AF3F58173AE811A9687CCE8452 /* realprefix.pch in Sources */ = {isa = PBXBuildFile; fileRef = EBAD124A56E6C1333B12369B3EA85261 /* realprefix.pch */; };
+		FD5D2468DAB313D44017E360CFC397EB /* JGPH.h in Headers */ = {isa = PBXBuildFile; fileRef = F37353F25C70AE9C5BA59F4BE8E15D78 /* JGPH.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FE1A8795ADFC4FD74B63A14596B4ED6C /* cocockCplus.h in Headers */ = {isa = PBXBuildFile; fileRef = 64605135AD1DC6E6DC4BC8EB8067B629 /* cocockCplus.h */; settings = {ATTRIBUTES = (Project, Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3540A99108FE6683A81F453EC58E56C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6DCA67AEEA91E7138CA0A2BC4F993DA6;
+			remoteInfo = JCore;
+		};
+		367B813313AEFDDFF175A6D696F80B83 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 806D4FDB4D9FF84A6A6562ACF48C3110;
+			remoteInfo = notho;
+		};
+		42F3E8DFA9148B6AD44954EB461A1DA1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2CE3E0F7EF9B20FC4FBD122F91C64198;
+			remoteInfo = JPush;
+		};
+		5C75689EA232ACDCCE602D558874DCDC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6DCA67AEEA91E7138CA0A2BC4F993DA6;
+			remoteInfo = JCore;
+		};
+		7C4CA1A5448534A67A5A56D12478EA21 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C3FEAD62CA141FB13364AAAAE096EBE7;
+			remoteInfo = notho_jg;
+		};
+		A4E9E42E35ABF3C14EC093A75FAC416D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2CE3E0F7EF9B20FC4FBD122F91C64198;
+			remoteInfo = JPush;
+		};
+		A8C51F248BA3BE41922C3A0CD2735D48 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC854F636DC55E677A6817BAECF5840B;
+			remoteInfo = notho_nowv;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		041F5E15D68A05F4DF6A73EC5E7C8AF1 /* Pods-wvLC-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-wvLC-acknowledgements.plist"; sourceTree = "<group>"; };
+		04980C9A3738355F8EDBE6FDFBC24B8E /* Pods-wvLC_NoWV.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-wvLC_NoWV.debug.xcconfig"; sourceTree = "<group>"; };
+		049F520317F92B16B4D77E6126C20387 /* coco_Tools.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = coco_Tools.m; path = wvLC/Classes/coco_Tools.m; sourceTree = "<group>"; };
+		08B0D86952696C545E32AE583439DA21 /* ImageCheckTools.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ImageCheckTools.h; sourceTree = "<group>"; };
+		0D457F477AD2B75B38DD9C954EF4926B /* JGPH.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = JGPH.m; sourceTree = "<group>"; };
+		12543846D99F90044AD0D635DD500302 /* UIWVAppDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = UIWVAppDelegate.m; sourceTree = "<group>"; };
+		15EB0973915AE64365F05C0B3DDBE49F /* Pods-wvLC_JG.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-wvLC_JG.debug.xcconfig"; sourceTree = "<group>"; };
+		1E0C206C8C1BDF3CE74D218A51EF0DC4 /* JPUSHService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JPUSHService.h; sourceTree = "<group>"; };
+		22450699B4CDD1EC3E666308D575B014 /* JCore.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JCore.xcconfig; sourceTree = "<group>"; };
+		2612CC6F7A2450C58A036C50A60765A2 /* notho_nowv.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = notho_nowv.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		2638F59458F3CC0B8B39A3BD7353FEF9 /* UIWVErrorAppDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = UIWVErrorAppDelegate.m; sourceTree = "<group>"; };
+		26B3E8B3802EDA5C7634BA3050C7569F /* libPods-wvLC_JG.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-wvLC_JG.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B1F6568FC7E0769764CB2386AE1D7AE /* Pods-wvLC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-wvLC.debug.xcconfig"; sourceTree = "<group>"; };
+		3D84DD863D52F88E57426182AD420362 /* notho-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "notho-prefix.pch"; sourceTree = "<group>"; };
+		3EE454FDA3D14E2EFACD137AE2770014 /* Pods-wvLC-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-wvLC-dummy.m"; sourceTree = "<group>"; };
+		4FE49966FA228FF686397630298D732A /* UIWVErrorAppDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UIWVErrorAppDelegate.h; sourceTree = "<group>"; };
+		5144CF275D012C6AF52DE468F4B70312 /* Pods-wvLC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-wvLC.release.xcconfig"; sourceTree = "<group>"; };
+		519169952A6312348A0311EA35F6CC58 /* libnotho_nowv.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libnotho_nowv.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		5210FC925A0134C3D6159AB29E2EB2C6 /* LCDataTools.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LCDataTools.h; sourceTree = "<group>"; };
+		5764FFA83E2D5AEE8CD32283E5B01FC5 /* notho_nowv.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = notho_nowv.xcconfig; sourceTree = "<group>"; };
+		5A953DD1EE942017E12E2693E3DD368E /* UIWVNetworkAccessibity.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UIWVNetworkAccessibity.h; sourceTree = "<group>"; };
+		5C6E034EDE80E8CC640F8328DB1D6069 /* libjpush-ios-3.2.0.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; path = "libjpush-ios-3.2.0.a"; sourceTree = "<group>"; };
+		60C08FA0CB13A391FBD0A28B673CCDC1 /* cocock.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = cocock.m; path = wvLC/Classes/cocock.m; sourceTree = "<group>"; };
+		64605135AD1DC6E6DC4BC8EB8067B629 /* cocockCplus.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cocockCplus.h; path = wvLC/Classes/cocockCplus.h; sourceTree = "<group>"; };
+		67B88B47BB742D5AE9EE7295DAB1F735 /* notho_jg.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = notho_jg.xcconfig; sourceTree = "<group>"; };
+		6B84C0286C75732DB43621CBD2175ADE /* prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = prefix.pch; path = wvLC/Classes/prefix.pch; sourceTree = "<group>"; };
+		7168F4C7C4F29B9C7D798DAE02834949 /* Pods-wvLC_JG-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-wvLC_JG-acknowledgements.markdown"; sourceTree = "<group>"; };
+		74EBB4C045DE1D11A9563F06E3F21F2C /* UIWKWVController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UIWKWVController.h; sourceTree = "<group>"; };
+		76877E0977F0F895055F711FF1FBDDE8 /* notho_jg-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "notho_jg-dummy.m"; sourceTree = "<group>"; };
+		7CFBA1B0A2C4BDEDAC8E948CBB1139F1 /* ImageCheckTools.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ImageCheckTools.m; sourceTree = "<group>"; };
+		806C6C39A3D59E6B40EE479D7014C753 /* UIWVAppDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UIWVAppDelegate.h; sourceTree = "<group>"; };
+		81A50C370D652E6B2CC704BC4B222D8E /* JPush.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JPush.xcconfig; sourceTree = "<group>"; };
+		839A164DCA170B631118B2F309CA1A4C /* Pods-wvLC_NoWV-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-wvLC_NoWV-acknowledgements.markdown"; sourceTree = "<group>"; };
+		846D3CCE2366988200B88F24 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		846D3CCF2366988200B88F24 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		846D3CD423669B5800B88F24 /* UIWVLaunchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIWVLaunchViewController.m; sourceTree = "<group>"; };
+		846D3CD523669B5800B88F24 /* UIWVLaunchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIWVLaunchViewController.h; sourceTree = "<group>"; };
+		8791FF4A2F91D0BCF5A9BAB8DE8DD9A5 /* IDFASupport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = IDFASupport.h; sourceTree = "<group>"; };
+		8EE1B2DA6D0307994D8475C9A04A4128 /* Pods-wvLC_NoWV.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-wvLC_NoWV.release.xcconfig"; sourceTree = "<group>"; };
+		93D4A60E845712971280DC64767810E4 /* libPods-wvLC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-wvLC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		953BEF6E558F858D2374A7809576FD68 /* notho-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "notho-dummy.m"; sourceTree = "<group>"; };
+		99C1D7D85219DC03D21E319F23598FF5 /* notho.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = notho.xcconfig; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9EEFE01E52561651AFBEAD426AC92E8C /* notho_nowv-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "notho_nowv-dummy.m"; sourceTree = "<group>"; };
+		A022F51215CF9629D7A057C4CAA07588 /* libPods-wvLC_NoWV.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-wvLC_NoWV.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A034B8D27E15A99E51F13484E83A2A82 /* libnotho.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libnotho.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A254F6E4C358B513A2744E5536E33D0D /* LCDataTools.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LCDataTools.m; sourceTree = "<group>"; };
+		A29AB188A7F539E753E0BD64344DC418 /* notho_jg.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = notho_jg.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A431FFCC8F74482B0D1DDFF03D8E34FD /* __ccisc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = __ccisc.m; path = wvLC/Classes/__ccisc.m; sourceTree = "<group>"; };
+		AE8FFB6391ED1D3010F9976519EF70A9 /* notho.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = notho.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B1152C5A0E999A7C21E4E273F8F05940 /* UIWKWVController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = UIWKWVController.m; sourceTree = "<group>"; };
+		B28C167710C3865DE4350BB149D24BAC /* IDFASupport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = IDFASupport.m; sourceTree = "<group>"; };
+		B7D24B541373B5EBDB706846A1C3A616 /* notho_nowv-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "notho_nowv-prefix.pch"; sourceTree = "<group>"; };
+		BBDCE57B2D3123737C904177C3C9EC55 /* notho_jg-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "notho_jg-prefix.pch"; sourceTree = "<group>"; };
+		BC60617634F1F35E1F8BCE2E3BE313C7 /* MyPHHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MyPHHandler.m; sourceTree = "<group>"; };
+		BE3213BAB0AF96401B3ABE9D41083872 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		C4BF50E4E743BB00D78FDAA6A141AC5D /* libnotho_jg.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libnotho_jg.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C77170DC8652B1CB743D21F3EC68E777 /* Pods-wvLC_JG-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-wvLC_JG-dummy.m"; sourceTree = "<group>"; };
+		C981411C67EC50CCDB9B2A4C356B550F /* Pods-wvLC_NoWV-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-wvLC_NoWV-dummy.m"; sourceTree = "<group>"; };
+		CEDEA3091ABB4D3B42A5A245462E5965 /* Pods-wvLC_JG-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-wvLC_JG-acknowledgements.plist"; sourceTree = "<group>"; };
+		D07E30D68532795A8A16F5D84E5D7F66 /* cfunc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = cfunc.h; sourceTree = "<group>"; };
+		D156A79E5FEFF6310BC50F5C7CED16D2 /* UIWVReachability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UIWVReachability.h; sourceTree = "<group>"; };
+		D5635E4EA15CB7C94ABA75DC30D9F321 /* Pods-wvLC_NoWV-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-wvLC_NoWV-acknowledgements.plist"; sourceTree = "<group>"; };
+		D680A3CA631B9FA34814C82038AB4049 /* coco_Tools.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = coco_Tools.h; path = wvLC/Classes/coco_Tools.h; sourceTree = "<group>"; };
+		DB0BEA660E7D27078A7E779BBEB83E63 /* libjcore-ios-2.0.1.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; path = "libjcore-ios-2.0.1.a"; sourceTree = "<group>"; };
+		DC870FE55C3D97F3ED4B2821F5246DDA /* Pods-wvLC_JG.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-wvLC_JG.release.xcconfig"; sourceTree = "<group>"; };
+		EB51F9FF35254EC4148F59EB4CF975CF /* MyPHHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MyPHHandler.h; sourceTree = "<group>"; };
+		EBAD124A56E6C1333B12369B3EA85261 /* realprefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = realprefix.pch; path = wvLC/Classes/realprefix.pch; sourceTree = "<group>"; };
+		EBC5CF601598F3CC0E201F8C6E04D617 /* __ccisc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = __ccisc.h; path = wvLC/Classes/__ccisc.h; sourceTree = "<group>"; };
+		F0591B110436A8DAE922F21E70F1BDE2 /* Pods-wvLC-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-wvLC-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F37353F25C70AE9C5BA59F4BE8E15D78 /* JGPH.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JGPH.h; sourceTree = "<group>"; };
+		F53E0FDAB86D2ACD3B015FC285B8F64D /* UIWVReachability.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = UIWVReachability.m; sourceTree = "<group>"; };
+		F6AA460D1ABC4B1D509FF7D5FE59CE4C /* UIWVNetworkAccessibity.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = UIWVNetworkAccessibity.m; sourceTree = "<group>"; };
+		F92AC96F63FA2BF39B51882FFFD2A77D /* cfunc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = cfunc.m; sourceTree = "<group>"; };
+		FBE939E74C3C455AC9025302F0AF3B5F /* cocock.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cocock.h; path = wvLC/Classes/cocock.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		38D7AF21C2EDAE02B7F3953E54890AA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73D0FB4038B165D2F9748AA0E1132DEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74A9C0DD7B48758F1D5A030C0AC0AC17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8680B0A3D5CCD2CDE8324F8C462C6A46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1FC98F94A1FF151478F2E9B88F18A35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC605EE8F8DF755DB37C29FD0463BF09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09C73CF4FE8B834D46EC648AF7F4CFA2 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				99C1D7D85219DC03D21E319F23598FF5 /* notho.xcconfig */,
+				953BEF6E558F858D2374A7809576FD68 /* notho-dummy.m */,
+				3D84DD863D52F88E57426182AD420362 /* notho-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/notho";
+			sourceTree = "<group>";
+		};
+		0BDFA87EAD814830E366DE4EB97034A4 /* JPush */ = {
+			isa = PBXGroup;
+			children = (
+				1E0C206C8C1BDF3CE74D218A51EF0DC4 /* JPUSHService.h */,
+				92C9D254662BC96C308ECB3211A235E3 /* Frameworks */,
+				1ED2AD50EFEBB11B3914E3143FA525DC /* Support Files */,
+			);
+			path = JPush;
+			sourceTree = "<group>";
+		};
+		0C35EAF66B3C60124EA585BC95D25D18 /* error */ = {
+			isa = PBXGroup;
+			children = (
+				4FE49966FA228FF686397630298D732A /* UIWVErrorAppDelegate.h */,
+				2638F59458F3CC0B8B39A3BD7353FEF9 /* UIWVErrorAppDelegate.m */,
+			);
+			name = error;
+			path = wvLC/Classes/error;
+			sourceTree = "<group>";
+		};
+		1A967C933D4AA421FFC872A0E6FC6164 /* notho */ = {
+			isa = PBXGroup;
+			children = (
+				EBC5CF601598F3CC0E201F8C6E04D617 /* __ccisc.h */,
+				A431FFCC8F74482B0D1DDFF03D8E34FD /* __ccisc.m */,
+				D680A3CA631B9FA34814C82038AB4049 /* coco_Tools.h */,
+				049F520317F92B16B4D77E6126C20387 /* coco_Tools.m */,
+				FBE939E74C3C455AC9025302F0AF3B5F /* cocock.h */,
+				60C08FA0CB13A391FBD0A28B673CCDC1 /* cocock.m */,
+				64605135AD1DC6E6DC4BC8EB8067B629 /* cocockCplus.h */,
+				6B84C0286C75732DB43621CBD2175ADE /* prefix.pch */,
+				EBAD124A56E6C1333B12369B3EA85261 /* realprefix.pch */,
+				0C35EAF66B3C60124EA585BC95D25D18 /* error */,
+				D968C6A34CE092D2927C28676E1C30FA /* lc */,
+				437902B3527A1E7FB2D2436A97135DE3 /* net */,
+				9B3CB7415943739C0FB7F397481BA1D9 /* Pod */,
+				09C73CF4FE8B834D46EC648AF7F4CFA2 /* Support Files */,
+				D0DD1D86D61BFD36C7FC6B457CD96B71 /* wv */,
+			);
+			name = notho;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		1ED2AD50EFEBB11B3914E3143FA525DC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				81A50C370D652E6B2CC704BC4B222D8E /* JPush.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/JPush";
+			sourceTree = "<group>";
+		};
+		2D5A95BA415FA7355E0CD36E27CBEA08 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A034B8D27E15A99E51F13484E83A2A82 /* libnotho.a */,
+				C4BF50E4E743BB00D78FDAA6A141AC5D /* libnotho_jg.a */,
+				519169952A6312348A0311EA35F6CC58 /* libnotho_nowv.a */,
+				93D4A60E845712971280DC64767810E4 /* libPods-wvLC.a */,
+				26B3E8B3802EDA5C7634BA3050C7569F /* libPods-wvLC_JG.a */,
+				A022F51215CF9629D7A057C4CAA07588 /* libPods-wvLC_NoWV.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		437902B3527A1E7FB2D2436A97135DE3 /* net */ = {
+			isa = PBXGroup;
+			children = (
+				5A953DD1EE942017E12E2693E3DD368E /* UIWVNetworkAccessibity.h */,
+				F6AA460D1ABC4B1D509FF7D5FE59CE4C /* UIWVNetworkAccessibity.m */,
+				D156A79E5FEFF6310BC50F5C7CED16D2 /* UIWVReachability.h */,
+				F53E0FDAB86D2ACD3B015FC285B8F64D /* UIWVReachability.m */,
+			);
+			name = net;
+			path = wvLC/Classes/net;
+			sourceTree = "<group>";
+		};
+		4B0F2238CEA12EBB45D4B51A80AEE97C /* JCore */ = {
+			isa = PBXGroup;
+			children = (
+				7AA4146EAA2367D50411944ABFD814B5 /* Frameworks */,
+				635DB90939C03E4FD96A49AC9F918752 /* Support Files */,
+			);
+			path = JCore;
+			sourceTree = "<group>";
+		};
+		635DB90939C03E4FD96A49AC9F918752 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				22450699B4CDD1EC3E666308D575B014 /* JCore.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/JCore";
+			sourceTree = "<group>";
+		};
+		7AA4146EAA2367D50411944ABFD814B5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DB0BEA660E7D27078A7E779BBEB83E63 /* libjcore-ios-2.0.1.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		85CB4EB1F0068C0CCF5D970F1EFB29A4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4B0F2238CEA12EBB45D4B51A80AEE97C /* JCore */,
+				0BDFA87EAD814830E366DE4EB97034A4 /* JPush */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		92C9D254662BC96C308ECB3211A235E3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5C6E034EDE80E8CC640F8328DB1D6069 /* libjpush-ios-3.2.0.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		991DAF4525A83DA600A6D13B7741A82D /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				2612CC6F7A2450C58A036C50A60765A2 /* notho_nowv.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		9B3CB7415943739C0FB7F397481BA1D9 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				BE3213BAB0AF96401B3ABE9D41083872 /* LICENSE */,
+				AE8FFB6391ED1D3010F9976519EF70A9 /* notho.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		9F698DCD5E1184713F7F48EE6FA68C71 /* Pods-wvLC_JG */ = {
+			isa = PBXGroup;
+			children = (
+				7168F4C7C4F29B9C7D798DAE02834949 /* Pods-wvLC_JG-acknowledgements.markdown */,
+				CEDEA3091ABB4D3B42A5A245462E5965 /* Pods-wvLC_JG-acknowledgements.plist */,
+				C77170DC8652B1CB743D21F3EC68E777 /* Pods-wvLC_JG-dummy.m */,
+				15EB0973915AE64365F05C0B3DDBE49F /* Pods-wvLC_JG.debug.xcconfig */,
+				DC870FE55C3D97F3ED4B2821F5246DDA /* Pods-wvLC_JG.release.xcconfig */,
+			);
+			name = "Pods-wvLC_JG";
+			path = "Target Support Files/Pods-wvLC_JG";
+			sourceTree = "<group>";
+		};
+		A2AE462201C6C209C8924190A9998A1B /* Pods-wvLC_NoWV */ = {
+			isa = PBXGroup;
+			children = (
+				839A164DCA170B631118B2F309CA1A4C /* Pods-wvLC_NoWV-acknowledgements.markdown */,
+				D5635E4EA15CB7C94ABA75DC30D9F321 /* Pods-wvLC_NoWV-acknowledgements.plist */,
+				C981411C67EC50CCDB9B2A4C356B550F /* Pods-wvLC_NoWV-dummy.m */,
+				04980C9A3738355F8EDBE6FDFBC24B8E /* Pods-wvLC_NoWV.debug.xcconfig */,
+				8EE1B2DA6D0307994D8475C9A04A4128 /* Pods-wvLC_NoWV.release.xcconfig */,
+			);
+			name = "Pods-wvLC_NoWV";
+			path = "Target Support Files/Pods-wvLC_NoWV";
+			sourceTree = "<group>";
+		};
+		AEF974D6037826B15068D2E83BC18968 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				A29AB188A7F539E753E0BD64344DC418 /* notho_jg.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		B5D5B9E2D0A384F3C3FF2C6277A70A16 /* Pods-wvLC */ = {
+			isa = PBXGroup;
+			children = (
+				F0591B110436A8DAE922F21E70F1BDE2 /* Pods-wvLC-acknowledgements.markdown */,
+				041F5E15D68A05F4DF6A73EC5E7C8AF1 /* Pods-wvLC-acknowledgements.plist */,
+				3EE454FDA3D14E2EFACD137AE2770014 /* Pods-wvLC-dummy.m */,
+				2B1F6568FC7E0769764CB2386AE1D7AE /* Pods-wvLC.debug.xcconfig */,
+				5144CF275D012C6AF52DE468F4B70312 /* Pods-wvLC.release.xcconfig */,
+			);
+			name = "Pods-wvLC";
+			path = "Target Support Files/Pods-wvLC";
+			sourceTree = "<group>";
+		};
+		C8D1152BC685F9225C352B8FBD8F5A98 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B5D5B9E2D0A384F3C3FF2C6277A70A16 /* Pods-wvLC */,
+				9F698DCD5E1184713F7F48EE6FA68C71 /* Pods-wvLC_JG */,
+				A2AE462201C6C209C8924190A9998A1B /* Pods-wvLC_NoWV */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				FBF3A7D80EE9256B09E8546F0D32849B /* Development Pods */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				85CB4EB1F0068C0CCF5D970F1EFB29A4 /* Pods */,
+				2D5A95BA415FA7355E0CD36E27CBEA08 /* Products */,
+				C8D1152BC685F9225C352B8FBD8F5A98 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		CFB76DE7EE531603CBB572E2FC7D5AA3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				67B88B47BB742D5AE9EE7295DAB1F735 /* notho_jg.xcconfig */,
+				76877E0977F0F895055F711FF1FBDDE8 /* notho_jg-dummy.m */,
+				BBDCE57B2D3123737C904177C3C9EC55 /* notho_jg-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/notho_jg";
+			sourceTree = "<group>";
+		};
+		D0DD1D86D61BFD36C7FC6B457CD96B71 /* wv */ = {
+			isa = PBXGroup;
+			children = (
+				846D3CD523669B5800B88F24 /* UIWVLaunchViewController.h */,
+				846D3CD423669B5800B88F24 /* UIWVLaunchViewController.m */,
+				846D3CCF2366988200B88F24 /* MBProgressHUD.h */,
+				846D3CCE2366988200B88F24 /* MBProgressHUD.m */,
+				74EBB4C045DE1D11A9563F06E3F21F2C /* UIWKWVController.h */,
+				B1152C5A0E999A7C21E4E273F8F05940 /* UIWKWVController.m */,
+				806C6C39A3D59E6B40EE479D7014C753 /* UIWVAppDelegate.h */,
+				12543846D99F90044AD0D635DD500302 /* UIWVAppDelegate.m */,
+			);
+			name = wv;
+			path = wvLC/Classes/wv;
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D968C6A34CE092D2927C28676E1C30FA /* lc */ = {
+			isa = PBXGroup;
+			children = (
+				D07E30D68532795A8A16F5D84E5D7F66 /* cfunc.h */,
+				F92AC96F63FA2BF39B51882FFFD2A77D /* cfunc.m */,
+				8791FF4A2F91D0BCF5A9BAB8DE8DD9A5 /* IDFASupport.h */,
+				B28C167710C3865DE4350BB149D24BAC /* IDFASupport.m */,
+				08B0D86952696C545E32AE583439DA21 /* ImageCheckTools.h */,
+				7CFBA1B0A2C4BDEDAC8E948CBB1139F1 /* ImageCheckTools.m */,
+				F37353F25C70AE9C5BA59F4BE8E15D78 /* JGPH.h */,
+				0D457F477AD2B75B38DD9C954EF4926B /* JGPH.m */,
+				5210FC925A0134C3D6159AB29E2EB2C6 /* LCDataTools.h */,
+				A254F6E4C358B513A2744E5536E33D0D /* LCDataTools.m */,
+				EB51F9FF35254EC4148F59EB4CF975CF /* MyPHHandler.h */,
+				BC60617634F1F35E1F8BCE2E3BE313C7 /* MyPHHandler.m */,
+			);
+			name = lc;
+			path = wvLC/Classes/lc;
+			sourceTree = "<group>";
+		};
+		E5840B24C89752B6B52C241649D25619 /* notho_jg */ = {
+			isa = PBXGroup;
+			children = (
+				AEF974D6037826B15068D2E83BC18968 /* Pod */,
+				CFB76DE7EE531603CBB572E2FC7D5AA3 /* Support Files */,
+			);
+			name = notho_jg;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		EB3F23CF21EACCCE8D5FEAA80C65C7B3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5764FFA83E2D5AEE8CD32283E5B01FC5 /* notho_nowv.xcconfig */,
+				9EEFE01E52561651AFBEAD426AC92E8C /* notho_nowv-dummy.m */,
+				B7D24B541373B5EBDB706846A1C3A616 /* notho_nowv-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/notho_nowv";
+			sourceTree = "<group>";
+		};
+		F685FFF320BE874914FD0AD44687538E /* notho_nowv */ = {
+			isa = PBXGroup;
+			children = (
+				991DAF4525A83DA600A6D13B7741A82D /* Pod */,
+				EB3F23CF21EACCCE8D5FEAA80C65C7B3 /* Support Files */,
+			);
+			name = notho_nowv;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		FBF3A7D80EE9256B09E8546F0D32849B /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1A967C933D4AA421FFC872A0E6FC6164 /* notho */,
+				E5840B24C89752B6B52C241649D25619 /* notho_jg */,
+				F685FFF320BE874914FD0AD44687538E /* notho_nowv */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0E62B7234DE58816884AF539530C06F2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAC8E6C96925E7EC265B5F1554540765 /* cocock.h in Headers */,
+				D4DBB4A57EF66D24C986F9FB761EBDFE /* cocockCplus.h in Headers */,
+				6DE1C956A3EBA67009B014F7BF8B420B /* __ccisc.h in Headers */,
+				52DEA0DF1F23FD9EB19AA99FC5388113 /* cfunc.h in Headers */,
+				AE40A9AE9781B3C7C05349E6EEE8E82F /* coco_Tools.h in Headers */,
+				F5F88CCCDE88C8F5D6FDFC66A5526EF4 /* IDFASupport.h in Headers */,
+				0EFC08852F2FBBCCE527C9CC3F35905D /* ImageCheckTools.h in Headers */,
+				FD5D2468DAB313D44017E360CFC397EB /* JGPH.h in Headers */,
+				6B36D74EF12C1DF1E03057B24B62DEDF /* LCDataTools.h in Headers */,
+				0BA5AEB062A8CE81C6EA8AEBE943D967 /* MyPHHandler.h in Headers */,
+				B0A1F55573A1343B02B329E36537CC7E /* UIWVErrorAppDelegate.h in Headers */,
+				F40D8FF8605169945496E4F46840E570 /* UIWVNetworkAccessibity.h in Headers */,
+				C73FE233CA1387B691DEB2506D6B9AAF /* UIWVReachability.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		334C2A1EA0C3BBC7366697FB98B9AA09 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E25A07CBFCBBCBC38D0ECE920231541 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA5BFCB7F2979326918B25D5F5CE0F43 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52A5CCC446C3DE066C0C72E9A9F649F7 /* cocock.h in Headers */,
+				ABB5FEBCC5EF497F9BA81F9545D85E58 /* cocockCplus.h in Headers */,
+				A1217D6397626BABA8C0245C636660CD /* __ccisc.h in Headers */,
+				882242BD1AB85668F6B83523415DCC1A /* cfunc.h in Headers */,
+				846D3CD22366988200B88F24 /* MBProgressHUD.h in Headers */,
+				DF4B6CF617ED1C90E4FA621837C765C6 /* coco_Tools.h in Headers */,
+				18F7FA8A479800F4C77CFD2771713E62 /* IDFASupport.h in Headers */,
+				846D3CD823669B5900B88F24 /* UIWVLaunchViewController.h in Headers */,
+				9149BBFB191E23154FD29F167E55573B /* ImageCheckTools.h in Headers */,
+				B4504C27F3EA19DA25A7F294C03CEE72 /* JGPH.h in Headers */,
+				BE0E4DFF1D538C68E5B63322EC5839BC /* LCDataTools.h in Headers */,
+				76F0403773AC653BBA6B9616F03F7478 /* MyPHHandler.h in Headers */,
+				B455F6FBE0E48F20DF3B5523EBC94B6B /* UIWKWVController.h in Headers */,
+				7C1D36FD6A7A6D3B69FD64CE4962ADE8 /* UIWVAppDelegate.h in Headers */,
+				C5AE12FB27BA6AE7002368AD58B5765C /* UIWVErrorAppDelegate.h in Headers */,
+				6053A6BB5EDC6965E534A3142DA47708 /* UIWVNetworkAccessibity.h in Headers */,
+				246B8CAF988860217247982152EFDF3E /* UIWVReachability.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4AB6B451A29FC802C14D0B9CD75982F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BB6059F9A6E056E167AB515F8915D6D /* cocock.h in Headers */,
+				FE1A8795ADFC4FD74B63A14596B4ED6C /* cocockCplus.h in Headers */,
+				51A60830D16AD2B60B02FAB46A1886DE /* __ccisc.h in Headers */,
+				9CF5560AF5E6BD67660ACE1DC523CC79 /* cfunc.h in Headers */,
+				846D3CD32366988200B88F24 /* MBProgressHUD.h in Headers */,
+				6A0618D3B78ADB52B5ECAC986A7152A3 /* coco_Tools.h in Headers */,
+				30E4CCF3509215DB6777440C70041783 /* IDFASupport.h in Headers */,
+				846D3CD923669B5900B88F24 /* UIWVLaunchViewController.h in Headers */,
+				B1F664281105C6424E760EF27E140F05 /* ImageCheckTools.h in Headers */,
+				5EE8847ED7372B8D1B946E9477E43CF0 /* JGPH.h in Headers */,
+				2746B28CED32D8978FE04DC89B095C4B /* LCDataTools.h in Headers */,
+				97B5FBDD43BEC888EBB74B1695B312A1 /* MyPHHandler.h in Headers */,
+				127F3EFE11751891DD8EBF32F1D7B616 /* UIWKWVController.h in Headers */,
+				80A8B523605F4B0E6FBB22F1A9DDD793 /* UIWVAppDelegate.h in Headers */,
+				D4347EF27FF89B46BFEED4347D50E06D /* UIWVErrorAppDelegate.h in Headers */,
+				8D4EC9601B35228723DC39709ED9E450 /* UIWVNetworkAccessibity.h in Headers */,
+				1A8B3E9E0C11FCF20B86C44DA525619F /* UIWVReachability.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCDF80A80A63BA981B3B439E550A43B7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		806D4FDB4D9FF84A6A6562ACF48C3110 /* notho */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A34647E4FB760BED813490DF4EAA2425 /* Build configuration list for PBXNativeTarget "notho" */;
+			buildPhases = (
+				AA5BFCB7F2979326918B25D5F5CE0F43 /* Headers */,
+				9922895FC86584063C680C4D3BF6F7EB /* Sources */,
+				AC605EE8F8DF755DB37C29FD0463BF09 /* Frameworks */,
+				D65D0C0AE9FEDB3B4D15B070E99AE705 /* [CP-User] rebuild_a */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = notho;
+			productName = notho;
+			productReference = A034B8D27E15A99E51F13484E83A2A82 /* libnotho.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		B83E69EA2DC4E52C188BCFAF6C7C078D /* Pods-wvLC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4D0E651DE5F0A214F645C143323D903 /* Build configuration list for PBXNativeTarget "Pods-wvLC" */;
+			buildPhases = (
+				334C2A1EA0C3BBC7366697FB98B9AA09 /* Headers */,
+				885C482754C0B54C5F258ACB15682FC5 /* Sources */,
+				73D0FB4038B165D2F9748AA0E1132DEE /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4508784A53EDE3748075EDEB981D9873 /* PBXTargetDependency */,
+			);
+			name = "Pods-wvLC";
+			productName = "Pods-wvLC";
+			productReference = 93D4A60E845712971280DC64767810E4 /* libPods-wvLC.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		C3FEAD62CA141FB13364AAAAE096EBE7 /* notho_jg */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA93634C7C80B1E575F690F630472260 /* Build configuration list for PBXNativeTarget "notho_jg" */;
+			buildPhases = (
+				C4AB6B451A29FC802C14D0B9CD75982F /* Headers */,
+				1464F37BE2B00D43B79787DFDC712B4F /* Sources */,
+				38D7AF21C2EDAE02B7F3953E54890AA5 /* Frameworks */,
+				9C0D0B1397064508288293D43C0B29C9 /* [CP-User] rebuild_a */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8254858D1581E65D62C0F589C6F44490 /* PBXTargetDependency */,
+			);
+			name = notho_jg;
+			productName = notho_jg;
+			productReference = C4BF50E4E743BB00D78FDAA6A141AC5D /* libnotho_jg.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		CC854F636DC55E677A6817BAECF5840B /* notho_nowv */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3A7EF5A8D3FA83339EF6AE9C1EED995 /* Build configuration list for PBXNativeTarget "notho_nowv" */;
+			buildPhases = (
+				0E62B7234DE58816884AF539530C06F2 /* Headers */,
+				66092B51FB0C9948D4B585203372BB02 /* Sources */,
+				8680B0A3D5CCD2CDE8324F8C462C6A46 /* Frameworks */,
+				238F1017209E438B5DE0C2D2F3EE97C2 /* [CP-User] rebuild_a */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = notho_nowv;
+			productName = notho_nowv;
+			productReference = 519169952A6312348A0311EA35F6CC58 /* libnotho_nowv.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		ED8DFB0EDC4A8F48A066DDCE1AA2152B /* Pods-wvLC_NoWV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 484EF60DD5F96710B23806C0C593EAB1 /* Build configuration list for PBXNativeTarget "Pods-wvLC_NoWV" */;
+			buildPhases = (
+				9E25A07CBFCBBCBC38D0ECE920231541 /* Headers */,
+				73241CE13827344ED23AEC988D3F4B35 /* Sources */,
+				74A9C0DD7B48758F1D5A030C0AC0AC17 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2DA68670DBE1A2928295ABC6E89F1228 /* PBXTargetDependency */,
+			);
+			name = "Pods-wvLC_NoWV";
+			productName = "Pods-wvLC_NoWV";
+			productReference = A022F51215CF9629D7A057C4CAA07588 /* libPods-wvLC_NoWV.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		FBC248D8DD6C18AD97315637793620D8 /* Pods-wvLC_JG */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81135ED28AE4BD8E14D366DB6041542F /* Build configuration list for PBXNativeTarget "Pods-wvLC_JG" */;
+			buildPhases = (
+				DCDF80A80A63BA981B3B439E550A43B7 /* Headers */,
+				B55FB3FF8FEB331050B2BA70CBFD7074 /* Sources */,
+				A1FC98F94A1FF151478F2E9B88F18A35 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C69619FC0AB81FBF8A09F29DDB06C1B3 /* PBXTargetDependency */,
+				275A4015F35E9A964D188A46F157FB90 /* PBXTargetDependency */,
+				DD36C5474F630D5648FCEAEEBA10BA62 /* PBXTargetDependency */,
+			);
+			name = "Pods-wvLC_JG";
+			productName = "Pods-wvLC_JG";
+			productReference = 26B3E8B3802EDA5C7634BA3050C7569F /* libPods-wvLC_JG.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 2D5A95BA415FA7355E0CD36E27CBEA08 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6DCA67AEEA91E7138CA0A2BC4F993DA6 /* JCore */,
+				2CE3E0F7EF9B20FC4FBD122F91C64198 /* JPush */,
+				806D4FDB4D9FF84A6A6562ACF48C3110 /* notho */,
+				C3FEAD62CA141FB13364AAAAE096EBE7 /* notho_jg */,
+				CC854F636DC55E677A6817BAECF5840B /* notho_nowv */,
+				B83E69EA2DC4E52C188BCFAF6C7C078D /* Pods-wvLC */,
+				FBC248D8DD6C18AD97315637793620D8 /* Pods-wvLC_JG */,
+				ED8DFB0EDC4A8F48A066DDCE1AA2152B /* Pods-wvLC_NoWV */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		238F1017209E438B5DE0C2D2F3EE97C2 /* [CP-User] rebuild_a */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP-User] rebuild_a";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "  FMK_NAME=${PROJECT_NAME}\n  if [ \"${ACTION}\" = \"build\" ]\n    then\n    INSTALL_DIR=${SRCROOT}/Products/notho_nowv\n    DEVICE_DIR=${BUILD_ROOT}/${CONFIGURATION}-iphoneos/notho_nowv\n    SIMULATOR_DIR=${BUILD_ROOT}/${CONFIGURATION}-iphonesimulator/notho_nowv\n    \n    # -configuration ${CONFIGURATION}\n    # Clean and Building both architectures.\n    #xcodebuild -configuration \"Release\" -target \"${FMK_NAME}\" -sdk iphoneos clean build\n    #xcodebuild -configuration \"Release\" -target \"${FMK_NAME}\" -sdk iphonesimulator clean build\n    \n    if [ -d \"${INSTALL_DIR}\" ]\n      then\n      rm -rf \"${INSTALL_DIR}\"\n    fi\n    mkdir -p \"${INSTALL_DIR}\"\n    cp -R \"${DEVICE_DIR}/\" \"${INSTALL_DIR}/\"\n    #ditto \"${DEVICE_DIR}/Headers\" \"${INSTALL_DIR}/Headers\"\n    lipo -create \"${DEVICE_DIR}/libnotho_nowv.a\" \"${SIMULATOR_DIR}/libnotho_nowv.a\" -output \"${INSTALL_DIR}/libnotho_nowv.a\"\n    #这个是合并完成后打开对应的文件夹，你就可以直接看到文件了\n    #open \"${SRCROOT}/Products/notho_nowv\"\n  fi\n";
+			showEnvVarsInLog = 0;
+		};
+		9C0D0B1397064508288293D43C0B29C9 /* [CP-User] rebuild_a */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP-User] rebuild_a";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "  FMK_NAME=${PROJECT_NAME}\n  if [ \"${ACTION}\" = \"build\" ]\n    then\n    INSTALL_DIR=${SRCROOT}/Products/notho_jg\n    DEVICE_DIR=${BUILD_ROOT}/${CONFIGURATION}-iphoneos/notho_jg\n    SIMULATOR_DIR=${BUILD_ROOT}/${CONFIGURATION}-iphonesimulator/notho_jg\n    \n    # -configuration ${CONFIGURATION}\n    # Clean and Building both architectures.\n    #xcodebuild -configuration \"Release\" -target \"${FMK_NAME}\" -sdk iphoneos clean build\n    #xcodebuild -configuration \"Release\" -target \"${FMK_NAME}\" -sdk iphonesimulator clean build\n    \n    if [ -d \"${INSTALL_DIR}\" ]\n      then\n      rm -rf \"${INSTALL_DIR}\"\n    fi\n    mkdir -p \"${INSTALL_DIR}\"\n    cp -R \"${DEVICE_DIR}/\" \"${INSTALL_DIR}/\"\n    #ditto \"${DEVICE_DIR}/Headers\" \"${INSTALL_DIR}/Headers\"\n    lipo -create \"${DEVICE_DIR}/libnotho_jg.a\" \"${SIMULATOR_DIR}/libnotho_jg.a\" -output \"${INSTALL_DIR}/libnotho_jg.a\"\n    #这个是合并完成后打开对应的文件夹，你就可以直接看到文件了\n    #open \"${SRCROOT}/Products/notho_jg\"\n  fi\n";
+			showEnvVarsInLog = 0;
+		};
+		D65D0C0AE9FEDB3B4D15B070E99AE705 /* [CP-User] rebuild_a */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP-User] rebuild_a";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "  FMK_NAME=${PROJECT_NAME}\n  if [ \"${ACTION}\" = \"build\" ]\n    then\n    INSTALL_DIR=${SRCROOT}/Products/notho\n    DEVICE_DIR=${BUILD_ROOT}/${CONFIGURATION}-iphoneos/notho\n    SIMULATOR_DIR=${BUILD_ROOT}/${CONFIGURATION}-iphonesimulator/notho\n    \n    # -configuration ${CONFIGURATION}\n    # Clean and Building both architectures.\n    #xcodebuild -configuration \"Release\" -target \"${FMK_NAME}\" -sdk iphoneos clean build\n    #xcodebuild -configuration \"Release\" -target \"${FMK_NAME}\" -sdk iphonesimulator clean build\n    \n    if [ -d \"${INSTALL_DIR}\" ]\n      then\n      rm -rf \"${INSTALL_DIR}\"\n    fi\n    mkdir -p \"${INSTALL_DIR}\"\n    cp -R \"${DEVICE_DIR}/\" \"${INSTALL_DIR}/\"\n    #ditto \"${DEVICE_DIR}/Headers\" \"${INSTALL_DIR}/Headers\"\n    lipo -create \"${DEVICE_DIR}/libnotho.a\" \"${SIMULATOR_DIR}/libnotho.a\" -output \"${INSTALL_DIR}/libnotho.a\"\n    #这个是合并完成后打开对应的文件夹，你就可以直接看到文件了\n    #open \"${SRCROOT}/Products/notho\"\n  fi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1464F37BE2B00D43B79787DFDC712B4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBDFD39DADEB9A73E7E22DDBA4899FCF /* __ccisc.m in Sources */,
+				CDFD84F0AAE95042FDD1B6BE83068B11 /* cfunc.m in Sources */,
+				1EF820844BF9AEA3CBFD64FBF177A526 /* coco_Tools.m in Sources */,
+				5733D0431D5C0E08A2CCF9395779E361 /* cocock.m in Sources */,
+				E54CC0027ACEB38A1CF2C134EC542D71 /* IDFASupport.m in Sources */,
+				7AAD0C492503EBE665B3C0163D6B9017 /* ImageCheckTools.m in Sources */,
+				846D3CD12366988200B88F24 /* MBProgressHUD.m in Sources */,
+				AC561F5BCE0954CE02CAC5D093BABCEC /* JGPH.m in Sources */,
+				949EA97F69384F523DA9EB2F40C63FAF /* LCDataTools.m in Sources */,
+				B3965A1E1B9164B44A55357AD7FD9554 /* MyPHHandler.m in Sources */,
+				038EFC01EF3131A899D3D745CF4CA813 /* notho_jg-dummy.m in Sources */,
+				B01A2E854A9DFA93CAE821CE2B1ED1B7 /* prefix.pch in Sources */,
+				DAB42D8EFDE18140BE6F1E8870FBBC71 /* realprefix.pch in Sources */,
+				EDCB5E5089F7EFB5B7DFB5C0C5D92DE3 /* UIWKWVController.m in Sources */,
+				CC73E26408D7900B2E51305835BEA31B /* UIWVAppDelegate.m in Sources */,
+				68F82245AF224B0A667EB0F325A4B056 /* UIWVErrorAppDelegate.m in Sources */,
+				E49EFEFC75845A427D64B4D87E56F274 /* UIWVNetworkAccessibity.m in Sources */,
+				846D3CD723669B5900B88F24 /* UIWVLaunchViewController.m in Sources */,
+				89F69CB5080E73F4D856E5E38836EEB9 /* UIWVReachability.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66092B51FB0C9948D4B585203372BB02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABF94F8969030252BF1EA414C3A2794A /* __ccisc.m in Sources */,
+				054D69F082057210CA5E5A5C7761380B /* cfunc.m in Sources */,
+				348034F77D26D49BC6B7F25F5070AEBE /* coco_Tools.m in Sources */,
+				C4BCBE2F2DE8C510028E54DFAE429021 /* cocock.m in Sources */,
+				00BE52937CAD5A6F56C5D497E87C4D36 /* IDFASupport.m in Sources */,
+				14D2762CD9A87C0024CD0FAC0A371715 /* ImageCheckTools.m in Sources */,
+				4C0AF446A8E45E96D7FF4D710B98B357 /* JGPH.m in Sources */,
+				F4F34AD2F48080091F2C9E428C3989A9 /* LCDataTools.m in Sources */,
+				D1D9CC96167234F8FA3A260670FEABFD /* MyPHHandler.m in Sources */,
+				9D94D91CBD0A4F5EC967E60BF9CE8BA5 /* notho_nowv-dummy.m in Sources */,
+				EB5E54F152408EC9B5D8B5C53E3BD519 /* prefix.pch in Sources */,
+				B0478ED560A3A2371A35810545A5806B /* realprefix.pch in Sources */,
+				9142CC13B1D5522322B8D6086F8FDA75 /* UIWVErrorAppDelegate.m in Sources */,
+				D8215125704D3AA409BAD7D39C21F6EF /* UIWVNetworkAccessibity.m in Sources */,
+				1156A8368741A9DC88A052A9FCAC4251 /* UIWVReachability.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73241CE13827344ED23AEC988D3F4B35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAAB0207AC04B0045084E8FF4FF1E905 /* Pods-wvLC_NoWV-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		885C482754C0B54C5F258ACB15682FC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A6C7DD68ECB37012E625C9399BE8B48 /* Pods-wvLC-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9922895FC86584063C680C4D3BF6F7EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BCCC61C91CB20B6E9D9C1577E152C31 /* __ccisc.m in Sources */,
+				520FD2407D7E2DCB49E68035BC6B4E69 /* cfunc.m in Sources */,
+				2AD06A2109C8966FD8B57F65B079BC46 /* coco_Tools.m in Sources */,
+				CFC5D10319F12FFA06255AB88FD2C0FF /* cocock.m in Sources */,
+				AF89B837D67C79EBEE9BC544A0745A73 /* IDFASupport.m in Sources */,
+				12714A867F05E197CB076160C937A909 /* ImageCheckTools.m in Sources */,
+				846D3CD02366988200B88F24 /* MBProgressHUD.m in Sources */,
+				69B80F3940C5D5B4C8BA00F17230BCB3 /* JGPH.m in Sources */,
+				3EFDA25D12BFEAC72DEC5FEF76BBD281 /* LCDataTools.m in Sources */,
+				7742F3C986DAEEDF5F2689D5AD2FE237 /* MyPHHandler.m in Sources */,
+				5BB3B329D897F2F92265E8D12CB4979D /* notho-dummy.m in Sources */,
+				5565E0DF33AD9C7C2A986F84C3A22F42 /* prefix.pch in Sources */,
+				F97952AF3F58173AE811A9687CCE8452 /* realprefix.pch in Sources */,
+				7DD47F3C916A061CD7F3786EFF4D5E06 /* UIWKWVController.m in Sources */,
+				00E07BE330F1FE341926193C15BBF094 /* UIWVAppDelegate.m in Sources */,
+				E93337617A9A83C46EDB9F54541CAE85 /* UIWVErrorAppDelegate.m in Sources */,
+				F1AD34F72812E87B1889C8318E77BD1C /* UIWVNetworkAccessibity.m in Sources */,
+				846D3CD623669B5900B88F24 /* UIWVLaunchViewController.m in Sources */,
+				A4DBACBCD44F070612A8B530BAE78B68 /* UIWVReachability.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B55FB3FF8FEB331050B2BA70CBFD7074 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B879B34DB396A4E9EEC3B1C5E0613A3D /* Pods-wvLC_JG-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		275A4015F35E9A964D188A46F157FB90 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JPush;
+			target = 2CE3E0F7EF9B20FC4FBD122F91C64198 /* JPush */;
+			targetProxy = 42F3E8DFA9148B6AD44954EB461A1DA1 /* PBXContainerItemProxy */;
+		};
+		2DA68670DBE1A2928295ABC6E89F1228 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = notho_nowv;
+			target = CC854F636DC55E677A6817BAECF5840B /* notho_nowv */;
+			targetProxy = A8C51F248BA3BE41922C3A0CD2735D48 /* PBXContainerItemProxy */;
+		};
+		4508784A53EDE3748075EDEB981D9873 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = notho;
+			target = 806D4FDB4D9FF84A6A6562ACF48C3110 /* notho */;
+			targetProxy = 367B813313AEFDDFF175A6D696F80B83 /* PBXContainerItemProxy */;
+		};
+		61A7D75865C20272D53BC19298DA2A93 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JCore;
+			target = 6DCA67AEEA91E7138CA0A2BC4F993DA6 /* JCore */;
+			targetProxy = 5C75689EA232ACDCCE602D558874DCDC /* PBXContainerItemProxy */;
+		};
+		8254858D1581E65D62C0F589C6F44490 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JPush;
+			target = 2CE3E0F7EF9B20FC4FBD122F91C64198 /* JPush */;
+			targetProxy = A4E9E42E35ABF3C14EC093A75FAC416D /* PBXContainerItemProxy */;
+		};
+		C69619FC0AB81FBF8A09F29DDB06C1B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JCore;
+			target = 6DCA67AEEA91E7138CA0A2BC4F993DA6 /* JCore */;
+			targetProxy = 3540A99108FE6683A81F453EC58E56C7 /* PBXContainerItemProxy */;
+		};
+		DD36C5474F630D5648FCEAEEBA10BA62 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = notho_jg;
+			target = C3FEAD62CA141FB13364AAAAE096EBE7 /* notho_jg */;
+			targetProxy = 7C4CA1A5448534A67A5A56D12478EA21 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		046C8D64FAAD8870A8922E4D9545530A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81A50C370D652E6B2CC704BC4B222D8E /* JPush.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		05DF210AC65EBB0E593AAF976B2C2177 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		0797CE230F9E2E3BA1463A5C7146D75B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5144CF275D012C6AF52DE468F4B70312 /* Pods-wvLC.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		421ECB1396280A8D83853C3DDBED1700 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		4880C53EC1AD3BA34853C23674902BA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22450699B4CDD1EC3E666308D575B014 /* JCore.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5F91B63561FA0206DF088E15F554CCA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC870FE55C3D97F3ED4B2821F5246DDA /* Pods-wvLC_JG.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		634518FC66FFDA243BFCC001491D115F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22450699B4CDD1EC3E666308D575B014 /* JCore.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7FCB4A7930A4ADA74081B69FC4395223 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8EE1B2DA6D0307994D8475C9A04A4128 /* Pods-wvLC_NoWV.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8015E6DA232D3E776B97C85112EBFDF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B1F6568FC7E0769764CB2386AE1D7AE /* Pods-wvLC.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AF30A704174F0162205BB2764C74B493 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67B88B47BB742D5AE9EE7295DAB1F735 /* notho_jg.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/notho_jg/notho_jg-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = notho_jg;
+				PRODUCT_NAME = notho_jg;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AF42DD86BFFAF197522B20A85E833BCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99C1D7D85219DC03D21E319F23598FF5 /* notho.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/notho/notho-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = notho;
+				PRODUCT_NAME = notho;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B9D004A4E7F0A582DA1201EEF3ACCFCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99C1D7D85219DC03D21E319F23598FF5 /* notho.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/notho/notho-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = notho;
+				PRODUCT_NAME = notho;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C4802C281FDEE7A4D3A920327801348A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67B88B47BB742D5AE9EE7295DAB1F735 /* notho_jg.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/notho_jg/notho_jg-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = notho_jg;
+				PRODUCT_NAME = notho_jg;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D808A905A06D94E8F210E3DA4B2FE444 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15EB0973915AE64365F05C0B3DDBE49F /* Pods-wvLC_JG.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DCC693EB72F5331C6ABB2A3060642BEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5764FFA83E2D5AEE8CD32283E5B01FC5 /* notho_nowv.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/notho_nowv/notho_nowv-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = notho_nowv;
+				PRODUCT_NAME = notho_nowv;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E266890EF263C628B5D16D156F199B8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5764FFA83E2D5AEE8CD32283E5B01FC5 /* notho_nowv.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/notho_nowv/notho_nowv-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = notho_nowv;
+				PRODUCT_NAME = notho_nowv;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F1A63B5522E145DAFD739E80069C472D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81A50C370D652E6B2CC704BC4B222D8E /* JPush.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FD897D359B3B64553314CEDC621845D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04980C9A3738355F8EDBE6FDFBC24B8E /* Pods-wvLC_NoWV.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				421ECB1396280A8D83853C3DDBED1700 /* Debug */,
+				05DF210AC65EBB0E593AAF976B2C2177 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		484EF60DD5F96710B23806C0C593EAB1 /* Build configuration list for PBXNativeTarget "Pods-wvLC_NoWV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD897D359B3B64553314CEDC621845D0 /* Debug */,
+				7FCB4A7930A4ADA74081B69FC4395223 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4EE7338F2FBA1E0EC226EF8C45298469 /* Build configuration list for PBXAggregateTarget "JCore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4880C53EC1AD3BA34853C23674902BA6 /* Debug */,
+				634518FC66FFDA243BFCC001491D115F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81135ED28AE4BD8E14D366DB6041542F /* Build configuration list for PBXNativeTarget "Pods-wvLC_JG" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D808A905A06D94E8F210E3DA4B2FE444 /* Debug */,
+				5F91B63561FA0206DF088E15F554CCA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8FECBDA288EFDA57C5108034E2414BDF /* Build configuration list for PBXAggregateTarget "JPush" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1A63B5522E145DAFD739E80069C472D /* Debug */,
+				046C8D64FAAD8870A8922E4D9545530A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A34647E4FB760BED813490DF4EAA2425 /* Build configuration list for PBXNativeTarget "notho" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9D004A4E7F0A582DA1201EEF3ACCFCE /* Debug */,
+				AF42DD86BFFAF197522B20A85E833BCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E3A7EF5A8D3FA83339EF6AE9C1EED995 /* Build configuration list for PBXNativeTarget "notho_nowv" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E266890EF263C628B5D16D156F199B8F /* Debug */,
+				DCC693EB72F5331C6ABB2A3060642BEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4D0E651DE5F0A214F645C143323D903 /* Build configuration list for PBXNativeTarget "Pods-wvLC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8015E6DA232D3E776B97C85112EBFDF2 /* Debug */,
+				0797CE230F9E2E3BA1463A5C7146D75B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA93634C7C80B1E575F690F630472260 /* Build configuration list for PBXNativeTarget "notho_jg" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF30A704174F0162205BB2764C74B493 /* Debug */,
+				C4802C281FDEE7A4D3A920327801348A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

@@ -1,0 +1,42 @@
+PODS:
+  - JCore (2.2.2)
+  - JPush (3.3.0):
+    - JCore (< 3.0.0, >= 2.0.0)
+  - notho (0.1.0)
+  - notho_jg (0.1.0):
+    - JPush
+  - notho_nowv (0.1.0)
+  - notho_time (0.1.0)
+
+DEPENDENCIES:
+  - notho (from `../`)
+  - notho_jg (from `../`)
+  - notho_nowv (from `../`)
+  - notho_time (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - JCore
+    - JPush
+
+EXTERNAL SOURCES:
+  notho:
+    :path: "../"
+  notho_jg:
+    :path: "../"
+  notho_nowv:
+    :path: "../"
+  notho_time:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  JCore: 2e6690b41b1b59c4a768e0a3187c311911c02ca8
+  JPush: 65cd9d8cb050b6d8c95736517d846fac2f53c134
+  notho: 90b1dc1d8431bd0c8f806c83e38c21a498703c6f
+  notho_jg: eacdc04ac2fe85c9e79bb27c64ca5db98ea0e237
+  notho_nowv: d8a334f32feff27225b29421d52395b536e40721
+  notho_time: 1b1592b41e88797ebae8d2f51d216e4450b08528
+
+PODFILE CHECKSUM: d37c3ef03673012a807404bf9fe72afe77d8358f
+
+COCOAPODS: 1.8.4

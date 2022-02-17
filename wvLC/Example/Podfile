@@ -1,0 +1,18 @@
+platform :ios, '8.0'
+
+target 'wvLC' do
+  pod 'notho', :path => '../'
+end
+
+target 'wvLC_JG' do
+  pod 'notho_jg', :path => '../'
+end
+
+target 'wvLC_NoWV' do
+  pod 'notho_nowv', :path => '../'
+end
+
+target 'wvLC_time' do
+  pod 'notho_time', :path => '../'
+end
+
